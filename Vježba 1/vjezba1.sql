@@ -1,5 +1,3 @@
-# c:\xampp\mysql\bin\mysql -uroot < C:\Users\Filip\Documents\Edunova-2022\Vježba 1\vjezba1.sql
-
 drop database if exists vjezba1;
 create database vjezba1;
 use vjezba1;

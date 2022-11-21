@@ -62,3 +62,14 @@ alter table clan add foreign key (polaznik) references polaznik(sifra);
 
 alter table polaznik add foreign key (osoba) references osoba(sifra);
 alter table predavac add foreign key (osoba) references osoba(sifra);
+
+
+
+insert into smjer values (null,'PHP programiranje',5999.99,500,130,false);
+
+insert into smjer (naziv, trajanje, certificiran)
+values ('Java programiranje',130,true);
+
+insert into smjer (sifra,naziv,cijena,upisnina,trajanje,certificiran)
+values
+(null,'Serviser',null,null,180,false);

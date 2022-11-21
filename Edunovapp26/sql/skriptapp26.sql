@@ -82,3 +82,27 @@ values ('PP26',20,1);
 # 2
 insert into grupa (naziv,maksimalnopolaznika,smjer)
 values ('JP27',22,2);
+
+#osobe
+# 1 - 19
+insert into osoba (ime,prezime,email)
+values
+('Boris','Bukovec','botaosijek@gmail.com'),
+('Tonko','Vorgić','tonko85@gmail.com'),
+('Domagoj','Culi','domo.culi@gmail.com'),
+('Nemanja','Đurić','nemanja.duric92@gmail.com'),
+('Adam','Vicković','vickovic2203@gmail.com'),
+('Marko','Pavlović','markopavlovic316@gmail.com'),
+('Darijan','Petrač','darijan.petrac@gmail.com'),
+('Stjepan','Abramović','stjepanabramovic1@gmail.com'),
+('Jakov','Begić','jakovbeg@gmail.com'),
+('Marko','Mikulić','marko_mikulic08@hotmail.com'),
+('Darija','Dumančić','darija.zdarilek@gmail.com'),
+('Lobel','Špehar','lobel.spehar.os@gmail.com'),
+('Ivan','Sambol','ivan.sambol@skole.hr'),
+('Sven','Ostojić','sven.ostojic@outlook.com'),
+('Lovrić','Kristijan','klovric991@gmail.com'),
+('Luka','Agić','agic.luke@gmail.com'),
+('Iris','Matokić','irismatokic@gmail.com'),
+('Filip','Janješić','filip.janjesic@gmail.com'),
+('Tomislav','Ružičić','truzicic@gmail.com');

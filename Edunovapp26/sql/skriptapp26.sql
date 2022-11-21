@@ -2,7 +2,9 @@
 # Izvođenje naredbi na serveru
 # Otvoriti CMD
 # Zaljepiti sljedeću naredbu bez prvog hash znaka
-# c:\xampp\mysql\bin\mysql -uroot < C:\Users\Filip\Documents\Edunovapp26\sql\skriptapp26.sql
+# c:\xampp\mysql\bin\mysql -uroot < C:\Users\dell\Documents\EdunovaPP26\SQL\skriptapp26.sql
+
+
 
 drop database if exists edunovapp26;
 create database edunovapp26;
@@ -55,12 +57,18 @@ create table clan(
 alter table grupa add foreign key (smjer) references smjer(sifra);
 alter table grupa add foreign key (predavac) references predavac(sifra);
 
-
 alter table clan add foreign key (grupa) references grupa(sifra);
 alter table clan add foreign key (polaznik) references polaznik(sifra);
 
-
 alter table polaznik add foreign key (osoba) references osoba(sifra);
-
-
 alter table predavac add foreign key (osoba) references osoba(sifra);
+
+
+
+
+
+
+
+
+
+

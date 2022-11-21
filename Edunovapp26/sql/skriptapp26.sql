@@ -62,12 +62,23 @@ alter table polaznik add foreign key (osoba) references osoba(sifra);
 alter table predavac add foreign key (osoba) references osoba(sifra);
 
 
+#smjer
 
+# 1
 insert into smjer values (null,'PHP programiranje',5999.99,500,130,false);
-
+# 2
 insert into smjer (naziv, trajanje, certificiran)
 values ('Java programiranje',130,true);
-
+# 3
 insert into smjer (sifra,naziv,cijena,upisnina,trajanje,certificiran)
 values
 (null,'Serviser',null,null,180,false);
+
+#grupa
+
+# 1
+insert into grupa (naziv,maksimalnopolaznika,smjer)
+values ('PP26',20,1);
+# 2
+insert into grupa (naziv,maksimalnopolaznika,smjer)
+values ('JP27',22,2);

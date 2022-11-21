@@ -2,9 +2,7 @@
 # Izvođenje naredbi na serveru
 # Otvoriti CMD
 # Zaljepiti sljedeću naredbu bez prvog hash znaka
-# c:\xampp\mysql\bin\mysql -uroot < C:\Users\Polaznik\Documents\Edunova-2022\Edunovapp26\sql\skriptapp26.sql
-
-
+# c:\xampp\mysql\bin\mysql -uroot <C:\Users\Polaznik\Documents\Edunova-2022\Edunovapp26\sql\skriptapp26.sql
 
 drop database if exists edunovapp26;
 create database edunovapp26;

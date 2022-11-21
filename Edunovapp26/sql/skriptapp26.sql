@@ -2,10 +2,10 @@
 # Izvođenje naredbi na serveru
 # Otvoriti CMD
 # Zaljepiti sljedeću naredbu bez prvog hash znaka
-# c:\xampp\mysql\bin\mysql -uroot <C:\Users\Polaznik\Documents\Edunova-2022\Edunovapp26\sql\skriptapp26.sql
+# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 <C:\Users\Polaznik\Documents\Edunova-2022\Edunovapp26\sql\skriptapp26.sql
 
 drop database if exists edunovapp26;
-create database edunovapp26;
+create database edunovapp26 default charset utf8;
 use edunovapp26;
 
 create table smjer(
@@ -106,3 +106,14 @@ values
 ('Iris','Matokić','irismatokic@gmail.com'),
 ('Filip','Janješić','filip.janjesic@gmail.com'),
 ('Tomislav','Ružičić','truzicic@gmail.com');
+
+#polaznik
+# 1 - 19 
+insert into polaznik(osoba)
+values (1),(2),(3),(4),(5),(6),(7),(8),(9),(10),(11),(12),(13),(14),(15),(16),(17),(18),(19);
+
+#predavac
+insert into osoba  (ime,prezime,email)
+values ('Tomislv','Jakopec','tjakopec@gmail.com');
+
+insert into predavac (osoba) values (20);

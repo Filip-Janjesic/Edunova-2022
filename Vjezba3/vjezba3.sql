@@ -40,3 +40,10 @@ create table katalog(
 alter table katalog add foreign key (autor) references autor(sifra);
 alter table katalog add foreign key (izdavac) references izdavac(sifra);
 alter table katalog add foreign key (mjesto) references mjesto(sifra);
+
+insert into autor (ime,prezime,datumrodjenja)
+values 
+('Marko','Marulić','1450-08-18 11:48:35'),
+('Tin','Ujević','1891-07-05 22:17:58'),
+('Dobriša','Cesarić','1902-01-10 05:32:11');
+

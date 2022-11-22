@@ -47,3 +47,10 @@ values
 ('Tin','Ujević','1891-07-05 22:17:58'),
 ('Dobriša','Cesarić','1902-01-10 05:32:11');
 
+insert into izdavac (naziv)
+values
+('Profil'),
+('AGM'),
+('Znanje');
+
+insert into mjesto

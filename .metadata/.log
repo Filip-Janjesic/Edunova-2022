@@ -7,3 +7,380 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Filip\D
 
 !ENTRY org.eclipse.ui 2 2 2022-11-23 20:07:04.676
 !MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-11-23 20:20:39.852
+!MESSAGE SQL Error [1146] [42S02]: (conn=31) Table 'mjesta.mjesta' doesn't exist
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-11-23 20:20:39.852
+!MESSAGE SQL Error [1146] [42S02]: (conn=31) Table 'mjesta.mjesta' doesn't exist
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2022-11-23 20:20:39.852
+!MESSAGE (conn=31) Table 'mjesta.mjesta' doesn't exist
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=31) Table 'mjesta.mjesta' doesn't exist
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-11-23 20:20:49.353
+!MESSAGE SQL Error [1146] [42S02]: (conn=31) Table 'mjesta.zupanija' doesn't exist
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-11-23 20:20:49.353
+!MESSAGE SQL Error [1146] [42S02]: (conn=31) Table 'mjesta.zupanija' doesn't exist
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2022-11-23 20:20:49.353
+!MESSAGE (conn=31) Table 'mjesta.zupanija' doesn't exist
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=31) Table 'mjesta.zupanija' doesn't exist
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-11-23 20:20:55.343
+!MESSAGE SQL Error [1146] [42S02]: (conn=31) Table 'mjesta.zupanija' doesn't exist
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-11-23 20:20:55.343
+!MESSAGE SQL Error [1146] [42S02]: (conn=31) Table 'mjesta.zupanija' doesn't exist
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2022-11-23 20:20:55.343
+!MESSAGE (conn=31) Table 'mjesta.zupanija' doesn't exist
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=31) Table 'mjesta.zupanija' doesn't exist
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-11-23 20:22:13.424
+!MESSAGE SQL Error [1146] [42S02]: (conn=32) Table 'mjesta.postanskibroj' doesn't exist
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-11-23 20:22:13.424
+!MESSAGE SQL Error [1146] [42S02]: (conn=32) Table 'mjesta.postanskibroj' doesn't exist
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2022-11-23 20:22:13.424
+!MESSAGE (conn=32) Table 'mjesta.postanskibroj' doesn't exist
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=32) Table 'mjesta.postanskibroj' doesn't exist
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-11-23 20:27:41.321 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Eclipse Foundation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Filip\Documents\Edunova-2022
+
+!ENTRY org.eclipse.ui 2 2 2022-11-23 20:27:48.298
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-11-23 20:39:05.648
+!MESSAGE SQL Error [1054] [42S22]: (conn=35) Unknown column 'datumrodnja' in 'where clause'
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-11-23 20:39:05.648
+!MESSAGE SQL Error [1054] [42S22]: (conn=35) Unknown column 'datumrodnja' in 'where clause'
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2022-11-23 20:39:05.648
+!MESSAGE (conn=35) Unknown column 'datumrodnja' in 'where clause'
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=35) Unknown column 'datumrodnja' in 'where clause'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-11-23 20:39:21.873
+!MESSAGE SQL Error [1054] [42S22]: (conn=35) Unknown column 'datumrodjenja' in 'where clause'
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-11-23 20:39:21.873
+!MESSAGE SQL Error [1054] [42S22]: (conn=35) Unknown column 'datumrodjenja' in 'where clause'
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2022-11-23 20:39:21.873
+!MESSAGE (conn=35) Unknown column 'datumrodjenja' in 'where clause'
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=35) Unknown column 'datumrodjenja' in 'where clause'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-11-23 20:41:18.444
+!MESSAGE SQL Error [1064] [42000]: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from katalog
+where naziv = 'Ljubav'' at line 1
+
+Error position:
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-11-23 20:41:18.444
+!MESSAGE SQL Error [1064] [42000]: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from katalog
+where naziv = 'Ljubav'' at line 1
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2022-11-23 20:41:18.444
+!MESSAGE (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from katalog
+where naziv = 'Ljubav'' at line 1
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from katalog
+where naziv = 'Ljubav'' at line 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-11-23 20:41:27.913
+!MESSAGE SQL Error [1064] [42000]: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from katalog
+where naziv = '%Ljubav'' at line 1
+
+Error position:
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-11-23 20:41:27.913
+!MESSAGE SQL Error [1064] [42000]: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from katalog
+where naziv = '%Ljubav'' at line 1
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2022-11-23 20:41:27.913
+!MESSAGE (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from katalog
+where naziv = '%Ljubav'' at line 1
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from katalog
+where naziv = '%Ljubav'' at line 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-11-23 20:41:38.791
+!MESSAGE SQL Error [1064] [42000]: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from katalog
+where naziv like '%Ljubav'' at line 1
+
+Error position:
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-11-23 20:41:38.791
+!MESSAGE SQL Error [1064] [42000]: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from katalog
+where naziv like '%Ljubav'' at line 1
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2022-11-23 20:41:38.791
+!MESSAGE (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from katalog
+where naziv like '%Ljubav'' at line 1
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from katalog
+where naziv like '%Ljubav'' at line 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-11-23 20:41:43.447
+!MESSAGE SQL Error [1054] [42S22]: (conn=35) Unknown column 'naziv' in 'where clause'
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-11-23 20:41:43.447
+!MESSAGE SQL Error [1054] [42S22]: (conn=35) Unknown column 'naziv' in 'where clause'
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2022-11-23 20:41:43.447
+!MESSAGE (conn=35) Unknown column 'naziv' in 'where clause'
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=35) Unknown column 'naziv' in 'where clause'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

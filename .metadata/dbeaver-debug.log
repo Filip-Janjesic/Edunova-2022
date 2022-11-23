@@ -1,0 +1,82 @@
+2022-11-23 20:07:01.595 - DBeaver 22.2.5.202211202223 is starting
+2022-11-23 20:07:01.596 - OS: Windows 10 10.0 (amd64)
+2022-11-23 20:07:01.596 - Java version: 11.0.12 by Eclipse Foundation (64bit)
+2022-11-23 20:07:01.596 - Install path: 'C:\Users\Filip\AppData\Local\DBeaver'
+2022-11-23 20:07:01.596 - Instance path: 'file:/C:/Users/Filip/Documents/Edunova-2022/'
+2022-11-23 20:07:01.597 - Memory available 64Mb/1024Mb
+2022-11-23 20:07:01.609 - Create display
+> Start Eclipse IDE UI [org.eclipse.ui.ide 3.19.100.v20220820-0412]
+2022-11-23 20:07:01.748 - Initializing DBeaver 22.2.5
+2022-11-23 20:07:01.749 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 22.2.5.202211202223
+2022-11-23 20:07:01.750 - Initialize desktop platform...
+2022-11-23 20:07:01.883 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.9.500.v20220817-1539]
+> Start Core Resource Management [org.eclipse.core.resources 3.18.0.v20220828-0546]
+> Start Team Support Core [org.eclipse.team.core 3.9.500.v20220817-1539]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.94.202211202223]
+2022-11-23 20:07:02.119 - 
+2022-11-23 20:07:02.120 - 	Refreshing workspace.
+2022-11-23 20:07:02.121 - Refreshing workspace contents
+2022-11-23 20:07:02.223 - Initialize base platform...
+> Start Expression Language [org.eclipse.core.expressions 3.8.200.v20220613-1047]
+2022-11-23 20:07:02.235 - Platform initialized (485ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.94.202211202223]
+2022-11-23 20:07:02.242 - Starting RMI server at 32509
+2022-11-23 20:07:02.289 - Run workbench
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.16.600.v20220607-1204]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.300.v20220613-1047]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.5.0.v20210115-1333]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.3.500.v20220717-1456]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.17.0.v20220817-1334]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.13.100.v20220310-1056]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.4.400.v20211102-0453]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.15.600.v20220715-1400]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.13.100.v20210722-1426]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.17.200.v20220613-1008]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.14.600.v20220621-1327]
+> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.109.202211202223]
+> Start jna [com.sun.jna 5.8.0]
+2022-11-23 20:07:03.559 - Configure workbench window
+> Start Help System Core [org.eclipse.help 3.9.100.v20210721-0601]
+2022-11-23 20:07:03.653 - Create actions
+2022-11-23 20:07:03.663 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2022-11-23 20:07:03.663 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2022-11-23 20:07:03.663 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2022-11-23 20:07:04.483 - Initialize workbench window
+2022-11-23 20:07:04.487 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.94.202211202223]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.3.1000.v20220801-1135]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.4.100.v20220812-1406]
+> Start Internet Connection Management [org.eclipse.core.net 1.4.0.v20220813-1037]
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.84.202211202223]
+2022-11-23 20:07:04.947 - Total database drivers: 101 (101)
+> Start Draw2d [org.eclipse.draw2dl 3.12.100.20221014131737]
+> Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20221014131737]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.54.202211202223]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.54.202211202223]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.94.202211202223]
+> Start Default Text Editor [org.eclipse.ui.editors 3.14.400.v20220730-1844]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.16.600.v20220809-1658]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.131.202211202223]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.100.202211202223]
+2022-11-23 20:07:07.695 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.85.202211202223]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.86.202211202223]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.179.202211202223]
+> Start DBeaver SSH tunnels UI [org.jkiss.dbeaver.net.ssh.ui 1.0.115.202211202223]
+> Start DBeaver SSH tunnels [org.jkiss.dbeaver.net.ssh 1.0.115.202211202223]
+2022-11-23 20:07:16.473 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2022-11-23 20:07:21.638 - Connect with 'localhost' (mariaDB-184a5e31dc5-43427f82758bb6ab)
+2022-11-23 20:07:21.668 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.118.202211202223]
+2022-11-23 20:07:21.815 - Open [https://repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.0.7/mariadb-java-client-3.0.7.pom]
+2022-11-23 20:07:22.079 - Open [https://repo1.maven.org/maven2/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom]
+2022-11-23 20:07:22.129 - Open [https://repo1.maven.org/maven2/software/amazon/awssdk/bom/2.17.24/bom-2.17.24.pom]
+2022-11-23 20:07:22.279 - Open [https://repo1.maven.org/maven2/software/amazon/awssdk/aws-sdk-java-pom/2.17.24/aws-sdk-java-pom-2.17.24.pom]
+2022-11-23 20:07:23.718 - Open [https://repo1.maven.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.0.7/mariadb-java-client-3.0.7.jar]
+2022-11-23 20:07:23.973 - Open [https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt]
+2022-11-23 20:07:24.699 - Execution context opened (localhost; Metadata; 1)
+2022-11-23 20:07:24.751 - Connected (mariaDB-184a5e31dc5-43427f82758bb6ab, MariaDB Connector/J [3.0.7])
+> Start DBeaver Tasks View [org.jkiss.dbeaver.tasks.ui.view 1.0.43.202211202223]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.72.202211202223]
+> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]

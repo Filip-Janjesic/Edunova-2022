@@ -53,4 +53,8 @@ values
 ('AGM'),
 ('Znanje');
 
-insert into mjesto
+insert into mjesto (naziv,postanskibroj,drzava)
+values
+('Višnjevac','31220','Hrvatska'),
+('Osijek','31000','Hrvatska'),
+('Zagreb','10000','Hrvatska');

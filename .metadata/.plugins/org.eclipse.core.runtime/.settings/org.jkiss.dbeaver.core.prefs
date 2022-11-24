@@ -22,3 +22,4 @@ sample.database.canceled=true
 swt.client.browser=EDGE
 tipOfTheDayInitializer.notFirstRun=true
 ui.auto.update.check.time=1669230427687
+ui.show.tip.of.the.day.on.startup=true

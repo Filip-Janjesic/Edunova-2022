@@ -1,4 +1,4 @@
-﻿# c:\xampp\mysql\bin\mysql -uroot < C:\Users\Filip\Documents\Edunova-2022\Edunovapp26\Newfolder\knjiznica.sql
+﻿# c:\xampp\mysql\bin\mysql -uroot  --default-character-set=utf8  < C:\Users\Filip\Documents\Edunova-2022\Skripte\Newfolder\knjiznica.sql
 
 # Klijent pokrenuti s --default-character-set=utf8 
 drop database if exists knjiznica;

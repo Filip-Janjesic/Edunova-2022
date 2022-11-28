@@ -40,30 +40,15 @@ inner join polaznik d on c.polaznik = d.sifra
 inner join osoba e on d.osoba = e.sifra
 where a.naziv = 'PHP programiranje';
 
-select  * from autor;
+
 
 select b.naslov
 from autor a
 inner join katalog b on a.sifra =b.autor
 where a.ime='August' and a.prezime ='Šenoa';
 
-select b.naslov, c.naziv as mjesto
+select b.naslov
 from autor a
 inner join katalog b on a.sifra =b.autor
-inner join mjesto c on b.mjesto=c.sifra
 where a.ime='August' and a.prezime ='Šenoa';
-
-select
-concat(a.ime, ' ', a.prezime) as autor,
-b.naslov, c.naziv as mjesto,
-d.naziv as izdavac
-from autor a
-inner join katalog b on a.sifra =b.autor
-inner join mjesto c on b.mjesto=c.sifra
-inner join izdavac d on b.izdavac = d.sifra
-where a.ime='August' and a.prezime ='Šenoa';
-
-
-
-
 

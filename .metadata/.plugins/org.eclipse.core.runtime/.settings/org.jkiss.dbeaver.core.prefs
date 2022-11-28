@@ -1,3 +1,5 @@
+SQLEditor.defaultOpenCommand=org.jkiss.dbeaver.core.sql.editor.create
+dialog.default.folder=C\:\\Users\\Filip\\Documents\\Edunova-2022\\Vjezba4
 driver.selector.orderBy=score
 eclipse.preferences.version=1
 org.jkiss.dbeaver.core.confirm.close_result_tabs=prompt
@@ -9,7 +11,7 @@ org.jkiss.dbeaver.core.confirm.drop_sql=prompt
 org.jkiss.dbeaver.core.confirm.entity_delete=prompt
 org.jkiss.dbeaver.core.confirm.entity_reject=prompt
 org.jkiss.dbeaver.core.confirm.entity_revert=prompt
-org.jkiss.dbeaver.core.confirm.erd_open_exported_file=prompt
+org.jkiss.dbeaver.core.confirm.erd_open_exported_file=always
 org.jkiss.dbeaver.core.confirm.exit=always
 org.jkiss.dbeaver.core.confirm.fetch_all_rows=prompt
 org.jkiss.dbeaver.core.confirm.keep_statement_open=prompt
@@ -19,6 +21,7 @@ org.jkiss.dbeaver.core.confirm.org.jkiss.dbeaver.sql.resultset.serverSideOrderin
 org.jkiss.dbeaver.core.confirm.reconnect_txn=prompt
 org.jkiss.dbeaver.core.confirm.version_check=prompt
 sample.database.canceled=true
+script_dialog_mode=true
 swt.client.browser=EDGE
 tipOfTheDayInitializer.notFirstRun=true
 ui.auto.update.check.time=1669630849631

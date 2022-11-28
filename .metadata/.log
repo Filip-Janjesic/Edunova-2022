@@ -697,3 +697,89 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -f C:\Users\Filip\Docu
 
 !ENTRY org.eclipse.ui 2 2 2022-11-28 11:24:25.180
 !MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+!SESSION 2022-11-28 17:32:09.721 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Eclipse Foundation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2022-11-28 17:32:17.194
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:32:34.135
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:32:39.476
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:33:08.198
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:34:29.092
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:35:00.551
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:36:28.273
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:36:28.711
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:36:28.854
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:36:29.033
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:36:29.116
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:36:29.306
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:36:29.961
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:38:12.948
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2022-11-28 17:38:12.949
+!MESSAGE Can't find FK table izlo�ba
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-11-28 17:38:44.805
+!MESSAGE SQL Error [1005] [HY000]: (conn=17) Can't create table `vjezba4`.`izložba` (errno: 150 "Foreign key constraint is incorrectly formed")
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-11-28 17:38:44.805
+!MESSAGE SQL Error [1005] [HY000]: (conn=17) Can't create table `vjezba4`.`izložba` (errno: 150 "Foreign key constraint is incorrectly formed")
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2022-11-28 17:38:44.805
+!MESSAGE (conn=17) Can't create table `vjezba4`.`izložba` (errno: 150 "Foreign key constraint is incorrectly formed")
+!STACK 0
+java.sql.SQLException: (conn=17) Can't create table `vjezba4`.`izložba` (errno: 150 "Foreign key constraint is incorrectly formed")
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

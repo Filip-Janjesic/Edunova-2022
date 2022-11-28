@@ -1,0 +1,3 @@
+select * from smjer;
+
+select * from grupa 

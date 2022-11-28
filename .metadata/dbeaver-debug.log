@@ -1,24 +1,24 @@
-2022-11-24 22:31:21.282 - DBeaver 22.2.5.202211202223 is starting
-2022-11-24 22:31:21.282 - OS: Windows 10 10.0 (amd64)
-2022-11-24 22:31:21.283 - Java version: 11.0.12 by Eclipse Foundation (64bit)
-2022-11-24 22:31:21.283 - Install path: 'C:\Users\Filip\AppData\Local\DBeaver'
-2022-11-24 22:31:21.283 - Instance path: 'file:/C:/Users/Filip/Documents/Edunova-2022/'
-2022-11-24 22:31:21.283 - Memory available 77Mb/1024Mb
-2022-11-24 22:31:21.301 - Create display
-2022-11-24 22:31:21.442 - Initializing DBeaver 22.2.5
-2022-11-24 22:31:21.444 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 22.2.5.202211202223
-2022-11-24 22:31:21.444 - Initialize desktop platform...
-2022-11-24 22:31:21.645 - BounceCastle bundle found. Use JCE provider BC
+2022-11-26 17:32:14.976 - DBeaver 22.2.5.202211202223 is starting
+2022-11-26 17:32:14.976 - OS: Windows 10 10.0 (amd64)
+2022-11-26 17:32:14.976 - Java version: 11.0.12 by Eclipse Foundation (64bit)
+2022-11-26 17:32:14.976 - Install path: 'C:\Users\Filip\AppData\Local\DBeaver'
+2022-11-26 17:32:14.976 - Instance path: 'file:/C:/Users/Filip/Documents/Edunova-2022/'
+2022-11-26 17:32:14.976 - Memory available 200Mb/1024Mb
+2022-11-26 17:32:14.992 - Create display
+2022-11-26 17:32:15.085 - Initializing DBeaver 22.2.5
+2022-11-26 17:32:15.085 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 22.2.5.202211202223
+2022-11-26 17:32:15.085 - Initialize desktop platform...
+2022-11-26 17:32:15.257 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.9.500.v20220817-1539]
 > Start Core Resource Management [org.eclipse.core.resources 3.18.0.v20220828-0546]
-> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.94.202211202223]
 > Start Team Support Core [org.eclipse.team.core 3.9.500.v20220817-1539]
-2022-11-24 22:31:21.946 - Initialize base platform...
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.94.202211202223]
+2022-11-26 17:32:15.539 - Initialize base platform...
 > Start Expression Language [org.eclipse.core.expressions 3.8.200.v20220613-1047]
-2022-11-24 22:31:21.962 - Platform initialized (518ms)
+2022-11-26 17:32:15.539 - Platform initialized (454ms)
 > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.94.202211202223]
-2022-11-24 22:31:21.973 - Starting RMI server at 63739
-2022-11-24 22:31:24.172 - Run workbench
+2022-11-26 17:32:15.554 - Starting RMI server at 34635
+2022-11-26 17:32:15.695 - Run workbench
 > Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.16.600.v20220607-1204]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.300.v20220613-1047]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.5.0.v20210115-1333]
@@ -31,140 +31,35 @@
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.17.200.v20220613-1008]
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.14.600.v20220621-1327]
 > Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.109.202211202223]
-2022-11-24 22:31:25.730 - Configure workbench window
+2022-11-26 17:32:17.153 - Configure workbench window
 > Start Help System Core [org.eclipse.help 3.9.100.v20210721-0601]
-2022-11-24 22:31:25.833 - Create actions
-2022-11-24 22:31:25.839 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2022-11-24 22:31:25.840 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2022-11-24 22:31:25.840 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2022-11-24 22:31:26.275 - Initialize workbench window
-2022-11-24 22:31:26.281 - Finish initialization
+2022-11-26 17:32:17.247 - Create actions
+2022-11-26 17:32:17.262 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2022-11-26 17:32:17.262 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2022-11-26 17:32:17.262 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2022-11-26 17:32:17.684 - Initialize workbench window
+2022-11-26 17:32:17.684 - Open external file(s) [[C:\Users\Filip\Documents\Edunova-2022\Edunovapp26\Script-1.sql]]
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.84.202211202223]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.94.202211202223]
 > Start Default Text Editor [org.eclipse.ui.editors 3.14.400.v20220730-1844]
 > Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.16.600.v20220809-1658]
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.94.202211202223]
-> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.84.202211202223]
-> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.94.202211202223]
 > Start Core Compare Support [org.eclipse.compare.core 3.7.100.v20220812-1406]
+2022-11-26 17:32:18.497 - Finish initialization
 > Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.3.1000.v20220801-1135]
 > Start Internet Connection Management UI [org.eclipse.ui.net 1.4.100.v20220812-1406]
 > Start Internet Connection Management [org.eclipse.core.net 1.4.0.v20220813-1037]
-2022-11-24 22:31:27.875 - Total database drivers: 101 (101)
+2022-11-26 17:32:19.294 - Total database drivers: 101 (101)
+> Start Console [org.eclipse.ui.console 3.11.300.v20220811-1921]
+> Start Debug Core [org.eclipse.debug.core 3.20.0.v20220811-0741]
 > Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.131.202211202223]
 > Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.100.202211202223]
 > Start Draw2d [org.eclipse.draw2dl 3.12.100.20221014131737]
 > Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20221014131737]
 > Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.54.202211202223]
 > Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.54.202211202223]
-> Start Console [org.eclipse.ui.console 3.11.300.v20220811-1921]
-> Start Debug Core [org.eclipse.debug.core 3.20.0.v20220811-0741]
-2022-11-24 22:31:28.533 - Connect with 'localhost' (mariaDB-184a5e31dc5-43427f82758bb6ab)
-> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.179.202211202223]
-2022-11-24 22:31:28.567 - Execution context opened (localhost; Main; 0)
-> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.118.202211202223]
-2022-11-24 22:31:28.680 - Execution context opened (localhost; Metadata; 1)
-2022-11-24 22:31:28.752 - Connected (mariaDB-184a5e31dc5-43427f82758bb6ab, MariaDB Connector/J [3.0.7])
-2022-11-24 22:31:28.907 - Execution context opened (localhost; SQLEditor <Script-1.sql>; 2)
-2022-11-24 22:31:30.665 - Open [https://dbeaver.io/product/version.xml]
-> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
-> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.86.202211202223]
-Warning: NLS unused message: pref_page_database_resultsets_group_image in: org.jkiss.dbeaver.ui.editors.data.internal.DataEditorsResources
-[ WARN] (DBeaver: Read data [# De?ka je ostavila cura, jadan pati što bi mu preporu?ili za ?itanje
-select * from  katalog where naziv like '%ljubav%']) Error: 1054-42S22: Unknown column 'naziv' in 'where clause'
-2022-11-24 23:07:06.981 - SQL Error [1054] [42S22]: (conn=10) Unknown column 'naziv' in 'where clause'
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1054] [42S22]: (conn=10) Unknown column 'naziv' in 'where clause'
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=10) Unknown column 'naziv' in 'where clause'
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-[ WARN] (DBeaver: Read data [# De?ka je ostavila cura, jadan pati što bi mu preporu?ili za ?itanje
-select * from  katalog where naziv like '%ljubav%']) Error: 1054-42S22: Unknown column 'naziv' in 'where clause'
-2022-11-24 23:07:09.250 - SQL Error [1054] [42S22]: (conn=10) Unknown column 'naziv' in 'where clause'
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1054] [42S22]: (conn=10) Unknown column 'naziv' in 'where clause'
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=10) Unknown column 'naziv' in 'where clause'
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-[ WARN] (DBeaver: Read data [# unesite sebe kao autora
-insert into autor (ime,prezime,datumrodenja)
-values ('Filip','Janjesic','1994-05-17')]) Error: 1062-23000: Duplicate entry '0' for key 'PRIMARY'
-2022-11-24 23:12:08.799 - SQL Error [1062] [23000]: (conn=10) Duplicate entry '0' for key 'PRIMARY'
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1062] [23000]: (conn=10) Duplicate entry '0' for key 'PRIMARY'
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=10) Duplicate entry '0' for key 'PRIMARY'
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:288)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
+2022-11-26 17:32:22.013 - Open [https://dbeaver.io/product/version.xml]
+2022-11-26 17:32:26.544 - DBeaver is stopping
+2022-11-26 17:32:26.544 - Stop RMI server
+2022-11-26 17:32:26.544 - RMI controller has been stopped
+2022-11-26 17:32:26.544 - DBeaver shutdown completed

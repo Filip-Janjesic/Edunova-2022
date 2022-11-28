@@ -30,9 +30,10 @@
           <tags>persp.viewSC:org.jkiss.dbeaver.tasks</tags>
           <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.annotationNavigation</tags>
           <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_wnQltWw9Ee20iMik4-CvaA" selectedElement="_wnQlvmw9Ee20iMik4-CvaA" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_wnQltWw9Ee20iMik4-CvaA" selectedElement="_wnQltmw9Ee20iMik4-CvaA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_wnQltmw9Ee20iMik4-CvaA" containerData="3000" selectedElement="_wnQlt2w9Ee20iMik4-CvaA">
               <children xsi:type="basic:PartStack" xmi:id="_wnQlt2w9Ee20iMik4-CvaA" elementId="navigation" containerData="7000" selectedElement="_wnQluGw9Ee20iMik4-CvaA">
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_wnQluGw9Ee20iMik4-CvaA" elementId="org.jkiss.dbeaver.core.databaseNavigator" ref="_wnRN7mw9Ee20iMik4-CvaA" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Database</tags>
@@ -141,13 +142,11 @@
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_wnRN5Gw9Ee20iMik4-CvaA" elementId="org.eclipse.ui.editorss" selectedElement="_X6BLsGxEEe2Jw_a76RZqxA">
       <children xsi:type="basic:PartStack" xmi:id="_X6BLsGxEEe2Jw_a76RZqxA" elementId="PartStack@126606bc" selectedElement="_5GU_QG2nEe2dfcSzgqZZ_Q">
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_wnRN52w9Ee20iMik4-CvaA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="&lt;localhost> Script-1" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_script.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;Script-1.sql&quot; partName=&quot;&amp;lt;localhost&amp;gt; Script-1&quot; title=&quot;&amp;lt;localhost&amp;gt; Script-1&quot; tooltip=&quot;Script: /General/Scripts/Script-1.sql&amp;#x0A;Connection: localhost&amp;#x0A;Type: MariaDB&amp;#x0A;URL: jdbc:mariadb://localhost:3306/&amp;#x0A;Database: knjiznica&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/General/Scripts/Script-1.sql&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1320&quot; selectionTopPixel=&quot;184&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.jkiss.dbeaver.ui.editors.sql.SQLEditor</tags>
-          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_v6St0GxEEe2Jw_a76RZqxA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="knjiznica" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/properties.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jkiss.dbeaver.ui.editors.entity.EntityEditor&quot; name=&quot;knjiznica&quot; partName=&quot;knjiznica&quot; title=&quot;knjiznica&quot; tooltip=&quot;Database: knjiznica &amp;#x0A;Connection: localhost &amp;#x0A;&quot;>&#xD;&#xA;&lt;input class=&quot;org.jkiss.dbeaver.ui.editors.DatabaseNodeEditorInput&quot; data-source=&quot;mariaDB-184a5e31dc5-43427f82758bb6ab&quot; factoryID=&quot;org.jkiss.dbeaver.ui.editors.DatabaseEditorInputFactory&quot; node=&quot;database://mariaDB-184a5e31dc5-43427f82758bb6ab/org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog/knjiznica&quot; node-name=&quot;knjiznica&quot; page=&quot;org.jkiss.dbeaver.erd.ui.editor.ERDEditorEmbedded&quot; project=&quot;General&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -160,7 +159,6 @@
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.jkiss.dbeaver.ui.editors.sql.SQLEditor</tags>
-          <tags>active</tags>
           <tags>activeOnClose</tags>
         </children>
       </children>
@@ -171,6 +169,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Database</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_wnRN72w9Ee20iMik4-CvaA" elementId="org.jkiss.dbeaver.core.databaseNavigator">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>

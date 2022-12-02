@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+erd.attr.styles=ICONS,TYPES,NULLABILITY
+erd.attr.visibility=ALL
+erd.grid.enabled=true

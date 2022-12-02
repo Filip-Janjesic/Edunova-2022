@@ -1,5 +1,5 @@
 SQLEditor.defaultOpenCommand=org.jkiss.dbeaver.core.sql.editor.create
-dialog.default.folder=C\:\\Users\\Filip\\Documents\\Edunova-2022\\Vjezba4
+dialog.default.folder=C\:\\Users\\Filip\\Documents\\Edunova-2022\\Zavrsni_rad_PP26\\sql
 driver.selector.orderBy=score
 eclipse.preferences.version=1
 org.jkiss.dbeaver.core.confirm.close_result_tabs=prompt
@@ -24,7 +24,7 @@ sample.database.canceled=true
 script_dialog_mode=true
 swt.client.browser=EDGE
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1669630849631
+ui.auto.update.check.time=1669931181569
 ui.render.boolean.style.checked.align=CENTER
 ui.render.boolean.style.checked.color=default
 ui.render.boolean.style.checked.font=NORMAL

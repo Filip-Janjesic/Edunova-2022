@@ -1,3 +1,5 @@
+# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 <C:\Users\Filip\Documents\Edunova-2022\Kolokvij_vjezba_1\kolokvij_vjezba_1.sql
+
 drop database if exists kolokvij_vjezba_1;
 create database kolokvij_vjezba_1;
 use kolokvij_vjezba_1;
@@ -15,7 +17,7 @@ create table svekar (
     dukserica varchar(41),
     lipa decimal (13,8),
     eura decimal (12,7),
-    majica values (35)
+    majica varchar (35)
 );
 
 create table sestra (
@@ -70,7 +72,7 @@ create table cura (
     novcica decimal (16,5) not null,
     gustoca decimal (18,6) not null,
     lipa decimal (13,10),
-    ogrlica int
+    ogrlica int,
     bojakose varchar (38),
     suknja varchar (36),
     punac int

@@ -1,0 +1,42 @@
+Postavljanje VHOST
+
+
+pa unutar pp23 direktorij ucenjephp.hr
+
+
+
+otvoriti datoteku
+C:\xampp\apache\conf\extra\httpd-vhosts.conf 
+
+Na kraju datoteke dodati (koristiti /(SHIFT+7) umjesto standard windows \(AltGr + q))
+<VirtualHost *:80>
+    ServerAdmin webmaster@dummy-host.example.com
+
+    DocumentRoot "D:/pp23/ucenjephp.hr"
+    ServerName predavacxx.edunova.hr
+    ServerAlias www.ucenjephp.hr
+
+    ErrorLog "logs/dummy-host.example.com-error.log"
+    CustomLog "logs/dummy-host.example.com-access.log" common
+
+
+<Directory "D:/pp23/ucenjephp.hr/">
+         Options FollowSymLinks Indexes
+         AllowOverride All
+         Require all granted
+    </Directory>
+
+
+</VirtualHost>
+
+u datoteci C:\Windows\System32\drivers\etc\hosts
+dodati liniju
+127.0.0.1 ucenjephp.hr
+
+te restart apache servera u XAMPP control panelu
+
+otići na adresu http://predavac01.edunova.hr/
+i mora se javiti sadržaj iz direktorija D:\pp23\ucenjephp.hr
+
+
+

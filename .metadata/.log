@@ -1359,3 +1359,42 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.ui 2 2 2022-12-06 11:37:27.195
 !MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+!SESSION 2022-12-06 18:13:04.746 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Eclipse Foundation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -f C:\Users\Filip\Desktop\sql-exercises-master\SQL Vjezbe\Kolokvij vježbe\Kolokvij vježba 2\kolokvij_vjezba2.sql
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -f C:\Users\Filip\Desktop\sql-exercises-master\SQL Vjezbe\Kolokvij vježbe\Kolokvij vježba 2\kolokvij_vjezba2.sql
+
+!ENTRY org.eclipse.ui 2 2 2022-12-06 18:13:11.551
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+!SESSION 2022-12-06 18:15:37.818 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Eclipse Foundation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -f C:\Users\Filip\Documents\Edunova-2022\Kolokvij_vjezba1\kolokvij_vjezba1.sql
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -f C:\Users\Filip\Documents\Edunova-2022\Kolokvij_vjezba1\kolokvij_vjezba1.sql
+
+!ENTRY org.eclipse.ui 2 2 2022-12-06 18:15:42.888
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+!SESSION 2022-12-06 18:16:03.035 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Eclipse Foundation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -f C:\Users\Filip\Documents\Edunova-2022\Kolokvij_vjezba2\kolokvij_vjezba2.sql
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -f C:\Users\Filip\Documents\Edunova-2022\Kolokvij_vjezba2\kolokvij_vjezba2.sql
+
+!ENTRY org.eclipse.ui 2 2 2022-12-06 18:16:07.806
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+!SESSION 2022-12-06 18:16:46.462 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Eclipse Foundation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2022-12-06 18:16:52.281
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)

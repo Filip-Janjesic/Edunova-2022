@@ -1,5 +1,5 @@
 SQLEditor.defaultOpenCommand=org.jkiss.dbeaver.core.sql.editor.create
-dialog.default.folder=C\:\\Users\\Filip\\Documents\\Edunova-2022\\Kolokvij_vjezba_1
+dialog.default.folder=C\:\\Users\\Filip\\Documents\\Edunova-2022\\Kolokvij_vjezba2
 driver.selector.orderBy=score
 eclipse.preferences.version=1
 org.jkiss.dbeaver.core.confirm.close_result_tabs=prompt

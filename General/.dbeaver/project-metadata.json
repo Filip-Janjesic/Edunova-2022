@@ -1,1 +1,1 @@
-{"resources":{"Scripts/Script-3.sql":{"default-datasource":"mariaDB-184a5e31dc5-43427f82758bb6ab","default-catalog":"kolokvij_vjezba_1"},"Scripts/selectNaViseTablica.sql":{"default-datasource":"mariaDB-184a5e31dc5-43427f82758bb6ab","default-catalog":"sakila"}}}
+{"resources":{"Scripts/selectNaViseTablica.sql":{"default-datasource":"mariaDB-184a5e31dc5-43427f82758bb6ab","default-catalog":"sakila"}}}

@@ -1,24 +1,24 @@
-2022-12-02 19:08:01.025 - DBeaver 22.2.5.202211202223 is starting
-2022-12-02 19:08:01.041 - OS: Windows 10 10.0 (amd64)
-2022-12-02 19:08:01.041 - Java version: 11.0.12 by Eclipse Foundation (64bit)
-2022-12-02 19:08:01.041 - Install path: 'C:\Users\Filip\AppData\Local\DBeaver'
-2022-12-02 19:08:01.041 - Instance path: 'file:/C:/Users/Filip/Documents/Edunova-2022/'
-2022-12-02 19:08:01.041 - Memory available 64Mb/1024Mb
-2022-12-02 19:08:01.041 - Create display
-2022-12-02 19:08:01.204 - Initializing DBeaver 22.2.5
-2022-12-02 19:08:01.205 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 22.2.5.202211202223
-2022-12-02 19:08:01.205 - Initialize desktop platform...
-2022-12-02 19:08:01.394 - BounceCastle bundle found. Use JCE provider BC
+2022-12-06 11:37:23.387 - DBeaver 22.3.0.202212041619 is starting
+2022-12-06 11:37:23.387 - OS: Windows 10 10.0 (amd64)
+2022-12-06 11:37:23.387 - Java version: 11.0.12 by Eclipse Foundation (64bit)
+2022-12-06 11:37:23.387 - Install path: 'C:\Users\Filip\AppData\Local\DBeaver'
+2022-12-06 11:37:23.387 - Instance path: 'file:/C:/Users/Filip/Documents/Edunova-2022/'
+2022-12-06 11:37:23.387 - Memory available 173Mb/1024Mb
+2022-12-06 11:37:23.402 - Create display
+2022-12-06 11:37:23.527 - Initializing DBeaver 22.3.0
+2022-12-06 11:37:23.543 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 22.3.0.202212041619
+2022-12-06 11:37:23.543 - Initialize desktop platform...
+2022-12-06 11:37:23.668 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.9.500.v20220817-1539]
 > Start Core Resource Management [org.eclipse.core.resources 3.18.0.v20220828-0546]
-> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.94.202211202223]
 > Start Team Support Core [org.eclipse.team.core 3.9.500.v20220817-1539]
-2022-12-02 19:08:01.686 - Initialize base platform...
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.95.202212041619]
+2022-12-06 11:37:23.871 - Initialize base platform...
 > Start Expression Language [org.eclipse.core.expressions 3.8.200.v20220613-1047]
-2022-12-02 19:08:01.709 - Platform initialized (504ms)
-> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.94.202211202223]
-2022-12-02 19:08:01.719 - Starting RMI server at 30816
-2022-12-02 19:08:01.869 - Run workbench
+2022-12-06 11:37:23.887 - Platform initialized (344ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.95.202212041619]
+2022-12-06 11:37:23.887 - Starting RMI server at 43588
+2022-12-06 11:37:24.012 - Run workbench
 > Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.16.600.v20220607-1204]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.300.v20220613-1047]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.5.0.v20210115-1333]
@@ -30,275 +30,32 @@
 > Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.13.100.v20210722-1426]
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.17.200.v20220613-1008]
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.14.600.v20220621-1327]
-> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.109.202211202223]
-2022-12-02 19:08:03.647 - Configure workbench window
+> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.110.202212041619]
+> Start Eclipse SDK Themes [org.eclipse.ui.themes 1.2.2000.v20220614-2134]
+2022-12-06 11:37:25.351 - Configure workbench window
 > Start Help System Core [org.eclipse.help 3.9.100.v20210721-0601]
-2022-12-02 19:08:03.741 - Create actions
-2022-12-02 19:08:03.741 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2022-12-02 19:08:03.741 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2022-12-02 19:08:03.741 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2022-12-02 19:08:04.182 - Initialize workbench window
-2022-12-02 19:08:04.197 - Finish initialization
+2022-12-06 11:37:25.445 - Create actions
+2022-12-06 11:37:25.461 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2022-12-06 11:37:25.461 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2022-12-06 11:37:25.461 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2022-12-06 11:37:25.976 - Initialize workbench window
+2022-12-06 11:37:25.976 - Finish initialization
 > Start Default Text Editor [org.eclipse.ui.editors 3.14.400.v20220730-1844]
 > Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.16.600.v20220809-1658]
-> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.94.202211202223]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.95.202212041619]
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.85.202212041619]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.95.202212041619]
+> Start Core Compare Support [org.eclipse.compare.core 3.7.100.v20220812-1406]
 > Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.3.1000.v20220801-1135]
 > Start Internet Connection Management UI [org.eclipse.ui.net 1.4.100.v20220812-1406]
 > Start Internet Connection Management [org.eclipse.core.net 1.4.0.v20220813-1037]
-> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.84.202211202223]
-2022-12-02 19:08:05.233 - Total database drivers: 101 (101)
-> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.131.202211202223]
-> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.100.202211202223]
-> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.94.202211202223]
-> Start Draw2d [org.eclipse.draw2dl 3.12.100.20221014131737]
-> Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20221014131737]
-> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.54.202211202223]
-> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.54.202211202223]
-2022-12-02 19:08:05.499 - Connect with 'localhost' (mariaDB-184a5e31dc5-43427f82758bb6ab)
-> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.179.202211202223]
-2022-12-02 19:08:05.545 - Execution context opened (localhost; Main; 0)
-> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.118.202211202223]
-2022-12-02 19:08:05.655 - Execution context opened (localhost; Metadata; 1)
-2022-12-02 19:08:05.744 - Connected (mariaDB-184a5e31dc5-43427f82758bb6ab, MariaDB Connector/J [3.0.7])
-> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
-> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.86.202211202223]
-2022-12-02 19:08:08.055 - Open [https://dbeaver.io/product/version.xml]
-> Start Core Compare Support [org.eclipse.compare.core 3.7.100.v20220812-1406]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.132.202212041619]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.101.202212041619]
 > Start Console [org.eclipse.ui.console 3.11.300.v20220811-1921]
 > Start Debug Core [org.eclipse.debug.core 3.20.0.v20220811-0741]
-2022-12-02 19:09:24.205 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 2)
-[ WARN] (DBeaver: Read data [select from * sestra]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from * sestra' at line 1
-2022-12-02 19:09:47.453 - SQL Error [1064] [42000]: (conn=13) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from * sestra' at line 1
-
-Error position:
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=13) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from * sestra' at line 1
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=13) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from * sestra' at line 1
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-[ WARN] (DBeaver: Read data [select * sestra]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sestra' at line 1
-2022-12-02 19:09:52.617 - SQL Error [1064] [42000]: (conn=13) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sestra' at line 1
-
-Error position:
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=13) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sestra' at line 1
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:494)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=13) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sestra' at line 1
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-2022-12-02 19:11:39.311 - No active connection
-2022-12-02 19:11:47.010 - Execution context closed (localhost, 2)
-2022-12-02 19:11:54.160 - Execution context opened (localhost; SQLEditor <Script-4.sql>; 3)
-[ WARN] (DBeaver: Read data [insert into muskarac (bojaociju,hlace,modelnaocala)
-values (crne,crne,crne)]) Error: 1054-42S22: Unknown column 'crne' in 'field list'
-2022-12-02 19:19:18.091 - SQL Error [1054] [42S22]: (conn=14) Unknown column 'crne' in 'field list'
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1054] [42S22]: (conn=14) Unknown column 'crne' in 'field list'
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=14) Unknown column 'crne' in 'field list'
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 11 more
-[ WARN] (DBeaver: Read data [insert into muskarac (bojaociju,hlace,modelnaocala) values (crne,crne,crne)]) Error: 1054-42S22: Unknown column 'crne' in 'field list'
-2022-12-02 19:19:40.864 - SQL Error [1054] [42S22]: (conn=14) Unknown column 'crne' in 'field list'
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1054] [42S22]: (conn=14) Unknown column 'crne' in 'field list'
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=14) Unknown column 'crne' in 'field list'
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 11 more
-[ WARN] (DBeaver: Read data [insert into muskarac (bojaociju,hlace,modelnaocala)
-values ('crne','crne','crne')]) Error: 1452-23000: Cannot add or update a child row: a foreign key constraint fails (`kolokvij_vjezba_1`.`muskarac`, CONSTRAINT `muskarac_ibfk_1` FOREIGN KEY (`zena`) REFERENCES `zena` (`sifra`))
-2022-12-02 19:20:15.039 - SQL Error [1452] [23000]: (conn=14) Cannot add or update a child row: a foreign key constraint fails (`kolokvij_vjezba_1`.`muskarac`, CONSTRAINT `muskarac_ibfk_1` FOREIGN KEY (`zena`) REFERENCES `zena` (`sifra`))
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1452] [23000]: (conn=14) Cannot add or update a child row: a foreign key constraint fails (`kolokvij_vjezba_1`.`muskarac`, CONSTRAINT `muskarac_ibfk_1` FOREIGN KEY (`zena`) REFERENCES `zena` (`sifra`))
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=14) Cannot add or update a child row: a foreign key constraint fails (`kolokvij_vjezba_1`.`muskarac`, CONSTRAINT `muskarac_ibfk_1` FOREIGN KEY (`zena`) REFERENCES `zena` (`sifra`))
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:288)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 11 more
-[ WARN] (DBeaver: Read data [insert into muskarac (bojaociju,hlace,modelnaocala,maraka,zena)
-values ('crne','crne','crne','18.3',1)]) Error: 1452-23000: Cannot add or update a child row: a foreign key constraint fails (`kolokvij_vjezba_1`.`muskarac`, CONSTRAINT `muskarac_ibfk_1` FOREIGN KEY (`zena`) REFERENCES `zena` (`sifra`))
-2022-12-02 19:21:25.166 - SQL Error [1452] [23000]: (conn=14) Cannot add or update a child row: a foreign key constraint fails (`kolokvij_vjezba_1`.`muskarac`, CONSTRAINT `muskarac_ibfk_1` FOREIGN KEY (`zena`) REFERENCES `zena` (`sifra`))
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1452] [23000]: (conn=14) Cannot add or update a child row: a foreign key constraint fails (`kolokvij_vjezba_1`.`muskarac`, CONSTRAINT `muskarac_ibfk_1` FOREIGN KEY (`zena`) REFERENCES `zena` (`sifra`))
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=14) Cannot add or update a child row: a foreign key constraint fails (`kolokvij_vjezba_1`.`muskarac`, CONSTRAINT `muskarac_ibfk_1` FOREIGN KEY (`zena`) REFERENCES `zena` (`sifra`))
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:288)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 11 more
-[ WARN] (DBeaver: Read data [insert into muskarac (bojaociju,hlace,modelnaocala,maraka,zena)
-values ('crne','crne','crne','18.3',0)]) Error: 1452-23000: Cannot add or update a child row: a foreign key constraint fails (`kolokvij_vjezba_1`.`muskarac`, CONSTRAINT `muskarac_ibfk_1` FOREIGN KEY (`zena`) REFERENCES `zena` (`sifra`))
-2022-12-02 19:21:43.525 - SQL Error [1452] [23000]: (conn=14) Cannot add or update a child row: a foreign key constraint fails (`kolokvij_vjezba_1`.`muskarac`, CONSTRAINT `muskarac_ibfk_1` FOREIGN KEY (`zena`) REFERENCES `zena` (`sifra`))
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1452] [23000]: (conn=14) Cannot add or update a child row: a foreign key constraint fails (`kolokvij_vjezba_1`.`muskarac`, CONSTRAINT `muskarac_ibfk_1` FOREIGN KEY (`zena`) REFERENCES `zena` (`sifra`))
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:578)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:487)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:913)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3760)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5033)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=14) Cannot add or update a child row: a foreign key constraint fails (`kolokvij_vjezba_1`.`muskarac`, CONSTRAINT `muskarac_ibfk_1` FOREIGN KEY (`zena`) REFERENCES `zena` (`sifra`))
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:288)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 11 more
-2022-12-02 19:21:48.504 - Execution context closed (localhost, 3)
-2022-12-02 19:21:48.718 - DBeaver is stopping
-2022-12-02 19:21:48.718 - Stop RMI server
-2022-12-02 19:21:48.718 - RMI controller has been stopped
-2022-12-02 19:21:48.718 - DBeaver shutdown completed
+Warning: NLS unused message: pref_page_database_resultsets_group_image in: org.jkiss.dbeaver.ui.editors.data.internal.DataEditorsResources
+2022-12-06 11:37:27.992 - Total database drivers: 101 (101)
+2022-12-06 11:40:11.036 - DBeaver is stopping
+2022-12-06 11:40:11.036 - Stop RMI server
+2022-12-06 11:40:11.036 - RMI controller has been stopped
+2022-12-06 11:40:11.036 - DBeaver shutdown completed

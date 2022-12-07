@@ -1,24 +1,24 @@
-2022-12-06 18:16:48.900 - DBeaver 22.3.0.202212041619 is starting
-2022-12-06 18:16:48.900 - OS: Windows 10 10.0 (amd64)
-2022-12-06 18:16:48.900 - Java version: 11.0.12 by Eclipse Foundation (64bit)
-2022-12-06 18:16:48.900 - Install path: 'C:\Users\Filip\AppData\Local\DBeaver'
-2022-12-06 18:16:48.900 - Instance path: 'file:/C:/Users/Filip/Documents/Edunova-2022/'
-2022-12-06 18:16:48.900 - Memory available 259Mb/1024Mb
-2022-12-06 18:16:48.916 - Create display
-2022-12-06 18:16:49.025 - Initializing DBeaver 22.3.0
-2022-12-06 18:16:49.025 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 22.3.0.202212041619
-2022-12-06 18:16:49.025 - Initialize desktop platform...
-2022-12-06 18:16:49.134 - BounceCastle bundle found. Use JCE provider BC
+2022-12-07 11:30:30.322 - DBeaver 22.3.0.202212041619 is starting
+2022-12-07 11:30:30.322 - OS: Windows 10 10.0 (amd64)
+2022-12-07 11:30:30.322 - Java version: 11.0.12 by Eclipse Foundation (64bit)
+2022-12-07 11:30:30.322 - Install path: 'C:\Users\Filip\AppData\Local\DBeaver'
+2022-12-07 11:30:30.322 - Instance path: 'file:/C:/Users/Filip/Documents/Edunova-2022/'
+2022-12-07 11:30:30.322 - Memory available 64Mb/1024Mb
+2022-12-07 11:30:30.338 - Create display
+2022-12-07 11:30:30.478 - Initializing DBeaver 22.3.0
+2022-12-07 11:30:30.478 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 22.3.0.202212041619
+2022-12-07 11:30:30.478 - Initialize desktop platform...
+2022-12-07 11:30:30.635 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.9.500.v20220817-1539]
 > Start Core Resource Management [org.eclipse.core.resources 3.18.0.v20220828-0546]
 > Start Team Support Core [org.eclipse.team.core 3.9.500.v20220817-1539]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.95.202212041619]
-2022-12-06 18:16:49.353 - Initialize base platform...
+2022-12-07 11:30:30.900 - Initialize base platform...
 > Start Expression Language [org.eclipse.core.expressions 3.8.200.v20220613-1047]
-2022-12-06 18:16:49.369 - Platform initialized (344ms)
+2022-12-07 11:30:30.932 - Platform initialized (454ms)
 > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.95.202212041619]
-2022-12-06 18:16:49.384 - Starting RMI server at 22330
-2022-12-06 18:16:49.509 - Run workbench
+2022-12-07 11:30:30.932 - Starting RMI server at 49741
+2022-12-07 11:30:31.072 - Run workbench
 > Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.16.600.v20220607-1204]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.300.v20220613-1047]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.5.0.v20210115-1333]
@@ -31,43 +31,112 @@
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.17.200.v20220613-1008]
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.14.600.v20220621-1327]
 > Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.110.202212041619]
-2022-12-06 18:16:50.797 - Configure workbench window
+2022-12-07 11:30:32.907 - Configure workbench window
 > Start Help System Core [org.eclipse.help 3.9.100.v20210721-0601]
-2022-12-06 18:16:50.891 - Create actions
-2022-12-06 18:16:50.906 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2022-12-06 18:16:50.906 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2022-12-06 18:16:50.906 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2022-12-06 18:16:51.266 - Initialize workbench window
-2022-12-06 18:16:51.266 - Finish initialization
-> Start Default Text Editor [org.eclipse.ui.editors 3.14.400.v20220730-1844]
-> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.16.600.v20220809-1658]
+2022-12-07 11:30:32.992 - Create actions
+2022-12-07 11:30:32.997 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2022-12-07 11:30:32.997 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2022-12-07 11:30:32.997 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2022-12-07 11:30:33.437 - Initialize workbench window
+2022-12-07 11:30:33.442 - Finish initialization
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.95.202212041619]
-> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.85.202212041619]
-> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.95.202212041619]
-> Start Core Compare Support [org.eclipse.compare.core 3.7.100.v20220812-1406]
 > Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.3.1000.v20220801-1135]
 > Start Internet Connection Management UI [org.eclipse.ui.net 1.4.100.v20220812-1406]
 > Start Internet Connection Management [org.eclipse.core.net 1.4.0.v20220813-1037]
 > Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.132.202212041619]
 > Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.101.202212041619]
-> Start Console [org.eclipse.ui.console 3.11.300.v20220811-1921]
-> Start Debug Core [org.eclipse.debug.core 3.20.0.v20220811-0741]
-Warning: NLS unused message: pref_page_database_resultsets_group_image in: org.jkiss.dbeaver.ui.editors.data.internal.DataEditorsResources
-2022-12-06 18:16:53.000 - Total database drivers: 101 (101)
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.85.202212041619]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.95.202212041619]
 > Start Draw2d [org.eclipse.draw2dl 3.12.100.20221014131737]
 > Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20221014131737]
 > Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.55.202212041619]
 > Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.55.202212041619]
-2022-12-06 18:17:04.938 - Connect with 'localhost' (mariaDB-184a5e31dc5-43427f82758bb6ab)
-> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.180.202212041619]
-2022-12-06 18:17:04.985 - Execution context opened (localhost; Main; 0)
-> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.119.202212041619]
-2022-12-06 18:17:05.095 - Execution context opened (localhost; Metadata; 1)
-2022-12-06 18:17:05.157 - Connected (mariaDB-184a5e31dc5-43427f82758bb6ab, MariaDB Connector/J [3.0.7])
-2022-12-06 18:17:05.173 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 2)
-2022-12-06 18:17:06.157 - Delete empty SQL script '\General\Scripts\Script-3.sql'
-2022-12-06 18:17:06.220 - Execution context closed (localhost, 2)
-2022-12-06 18:18:26.489 - DBeaver is stopping
-2022-12-06 18:18:26.489 - Stop RMI server
-2022-12-06 18:18:26.489 - RMI controller has been stopped
-2022-12-06 18:18:26.489 - DBeaver shutdown completed
+2022-12-07 11:30:34.984 - Total database drivers: 101 (101)
+> Start Default Text Editor [org.eclipse.ui.editors 3.14.400.v20220730-1844]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.16.600.v20220809-1658]
+2022-12-07 11:30:35.538 - Event loop exception
+java.lang.NullPointerException
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceToolbarUtils.refreshSelectorToolbar(DataSourceToolbarUtils.java:63)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceToolbarHandler.updateToolbar(DataSourceToolbarHandler.java:174)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceToolbarHandler.lambda$1(DataSourceToolbarHandler.java:111)
+	at org.jkiss.dbeaver.ui.UIExecutionQueue.executeInUI(UIExecutionQueue.java:68)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:560)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:367)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:388)
+	at org.jkiss.dbeaver.ui.app.standalone.ApplicationWorkbenchAdvisor.postShutdown(ApplicationWorkbenchAdvisor.java:276)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2931)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1123)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1391)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1391)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1367)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:504)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4747)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4846)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4846)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2022-12-07 11:30:35.694 - DBeaver is stopping
+2022-12-07 11:30:35.698 - Stop RMI server
+2022-12-07 11:30:35.700 - RMI controller has been stopped
+2022-12-07 11:30:35.700 - DBeaver shutdown completed

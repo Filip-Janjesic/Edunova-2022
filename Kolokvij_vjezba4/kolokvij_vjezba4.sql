@@ -82,7 +82,7 @@ insert into zena (suknja,prstena) values
 ('Crvena',2),
 ('Zelena',1);
 
-insert into snasa (haljina,prstena) values
+insert into snasa (haljina,zena) values
 ('Crna',2),
 ('Plava',3),
 ('Roza',1);
@@ -101,3 +101,4 @@ insert into zena_mladic (zena,mladic) values
 (1,2),
 (3,1),
 (2,3);
+

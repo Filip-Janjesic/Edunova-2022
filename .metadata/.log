@@ -1582,3 +1582,217 @@ java.lang.NullPointerException
 
 !ENTRY org.jkiss.dbeaver.model 2 0 2022-12-07 11:30:35.756
 !MESSAGE Some datasource registry listeners are still registered: [org.jkiss.dbeaver.ui.actions.datasource.DataSourceToolbarHandler@322d58b1]
+!SESSION 2022-12-07 19:10:13.883 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Eclipse Foundation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -f C:\Users\Filip\Documents\Edunova-2022\Zavrsni_rad_PP26\sql\webshop.sql
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -f C:\Users\Filip\Documents\Edunova-2022\Zavrsni_rad_PP26\sql\webshop.sql
+
+!ENTRY org.eclipse.ui 2 2 2022-12-07 19:10:21.256
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-12-07 19:10:27.886
+!MESSAGE No active connection
+
+!ENTRY org.eclipse.ui 4 0 2022-12-07 19:10:33.582
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.ToolItem.getBounds(ToolItem.java:241)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.dropdownEvent(AbstractContributionItem.java:418)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:436)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-12-07 19:10:33.586
+!MESSAGE Event loop exception
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-12-07 19:10:33.586
+!MESSAGE Widget is disposed
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.ToolItem.getBounds(ToolItem.java:241)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.dropdownEvent(AbstractContributionItem.java:418)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:436)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-12-07 19:10:40.646
+!MESSAGE SQL Error [1064] [42000]: (conn=10) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-12-07 19:10:40.646
+!MESSAGE SQL Error [1064] [42000]: (conn=10) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2022-12-07 19:10:40.646
+!MESSAGE (conn=10) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=10) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:916)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3800)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5035)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-12-07 19:10:49.159
+!MESSAGE SQL Error [1050] [42S01]: (conn=10) Table '.\webshop\komentar' already exists
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-12-07 19:10:49.159
+!MESSAGE (conn=10) Table '.\webshop\komentar' already exists
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=10) Table '.\webshop\komentar' already exists
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:237)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-12-07 19:10:56.834
+!MESSAGE SQL Error [1050] [42S01]: (conn=10) Table '.\webshop\komentar' already exists
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-12-07 19:10:56.835
+!MESSAGE (conn=10) Table '.\webshop\komentar' already exists
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=10) Table '.\webshop\komentar' already exists
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:237)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2022-12-07 19:10:59.376
+!MESSAGE SQL Error [1050] [42S01]: (conn=10) Table '.\webshop\ocjena' already exists
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2022-12-07 19:10:59.376
+!MESSAGE (conn=10) Table '.\webshop\ocjena' already exists
+!STACK 0
+java.sql.SQLSyntaxErrorException: (conn=10) Table '.\webshop\ocjena' already exists
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:237)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

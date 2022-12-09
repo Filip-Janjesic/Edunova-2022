@@ -140,13 +140,20 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_3n3z-G9WEe23mNtvw56JvQ" elementId="org.eclipse.ui.editorss" selectedElement="_3n3z-W9WEe23mNtvw56JvQ">
-      <children xsi:type="basic:PartStack" xmi:id="_3n3z-W9WEe23mNtvw56JvQ" elementId="PartStack@126606bc" selectedElement="_aPMaEHZaEe2Iu5TYPqf9cw">
+      <children xsi:type="basic:PartStack" xmi:id="_3n3z-W9WEe23mNtvw56JvQ" elementId="PartStack@126606bc" selectedElement="_bQaMEHfyEe2lye9FQ2OX-Q">
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_aPMaEHZaEe2Iu5TYPqf9cw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="&lt;localhost> webshop.sql" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_script.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;webshop.sql&quot; partName=&quot;&amp;lt;localhost&amp;gt; webshop.sql&quot; title=&quot;&amp;lt;localhost&amp;gt; webshop.sql&quot; tooltip=&quot;Script: C:\Users\Filip\Documents\Edunova-2022\Zavrsni_rad_PP26\sql\webshop.sql&amp;#x0A;Connection: localhost&amp;#x0A;Type: MariaDB&amp;#x0A;URL: jdbc:mariadb://localhost:3306/&amp;#x0A;Database: webshop&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;file:/C:/Users/Filip/Documents/Edunova-2022/Zavrsni_rad_PP26/sql/webshop.sql&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;91&quot; selectionOffset=&quot;2093&quot; selectionTopPixel=&quot;1220&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;webshop.sql&quot; partName=&quot;&amp;lt;localhost&amp;gt; webshop.sql&quot; title=&quot;&amp;lt;localhost&amp;gt; webshop.sql&quot; tooltip=&quot;Script: C:\Users\Filip\Documents\Edunova-2022\Zavrsni_rad_PP26\sql\webshop.sql&amp;#x0A;Connection: localhost&amp;#x0A;Type: MariaDB&amp;#x0A;URL: jdbc:mariadb://localhost:3306/&amp;#x0A;Database: webshop&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;file:/C:/Users/Filip/Documents/Edunova-2022/Zavrsni_rad_PP26/sql/webshop.sql&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1330&quot; selectionTopPixel=&quot;284&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.jkiss.dbeaver.ui.editors.sql.SQLEditor</tags>
+          <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_bQaMEHfyEe2lye9FQ2OX-Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="webshop" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/properties.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jkiss.dbeaver.ui.editors.entity.EntityEditor&quot; name=&quot;webshop&quot; partName=&quot;webshop&quot; title=&quot;webshop&quot; tooltip=&quot;Database: webshop &amp;#x0A;Connection: localhost &amp;#x0A;&quot;>&#xD;&#xA;&lt;input class=&quot;org.jkiss.dbeaver.ui.editors.DatabaseNodeEditorInput&quot; data-source=&quot;mariaDB-184a5e31dc5-43427f82758bb6ab&quot; factoryID=&quot;org.jkiss.dbeaver.ui.editors.DatabaseEditorInputFactory&quot; node=&quot;database://mariaDB-184a5e31dc5-43427f82758bb6ab/org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog/webshop&quot; node-name=&quot;webshop&quot; page=&quot;org.jkiss.dbeaver.erd.ui.editor.ERDEditorEmbedded&quot; project=&quot;General&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.jkiss.dbeaver.ui.editors.entity.EntityEditor</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
         </children>

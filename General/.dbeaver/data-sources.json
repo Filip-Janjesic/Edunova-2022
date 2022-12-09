@@ -10,9 +10,21 @@
 				"host": "localhost",
 				"port": "3306",
 				"url": "jdbc:mariadb://localhost:3306/",
+				"configurationType": "MANUAL",
 				"home": "mysql_client",
 				"type": "dev",
 				"auth-model": "native"
+			}
+		}
+	},
+	"virtual-models": {
+		"mariaDB-184a5e31dc5-43427f82758bb6ab": {
+			"webshop": {
+				"@properties": {
+					"erd.diagram.state": {
+						"serialized": "\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202212091953\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"mariaDB-184a5e31dc5-43427f82758bb6ab\"\u003e\u003centity id\u003d\"1\" name\u003d\"komentar\" fq-name\u003d\"webshop.komentar\" order\u003d\"0\" color-bg\u003d\"0,255,0\" x\u003d\"140\" y\u003d\"400\"\u003e\u003cpath name\u003d\"webshop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"korisnik\" fq-name\u003d\"webshop.korisnik\" order\u003d\"1\" color-bg\u003d\"255,0,0\" x\u003d\"140\" y\u003d\"120\"\u003e\u003cpath name\u003d\"webshop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"3\" name\u003d\"ocjena\" fq-name\u003d\"webshop.ocjena\" order\u003d\"2\" color-bg\u003d\"0,255,0\" x\u003d\"520\" y\u003d\"120\"\u003e\u003cpath name\u003d\"webshop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"4\" name\u003d\"proizvod\" fq-name\u003d\"webshop.proizvod\" order\u003d\"3\" color-bg\u003d\"255,0,0\" x\u003d\"520\" y\u003d\"400\"\u003e\u003cpath name\u003d\"webshop\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"komentar_ibfk_2\" fq-name\u003d\"webshop.komentar.komentar_ibfk_2\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"ocjena_ibfk_2\" fq-name\u003d\"webshop.ocjena.ocjena_ibfk_2\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"3\"/\u003e\u003crelation name\u003d\"komentar_ibfk_1\" fq-name\u003d\"webshop.komentar.komentar_ibfk_1\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"ocjena_ibfk_1\" fq-name\u003d\"webshop.ocjena.ocjena_ibfk_1\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"3\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"
+					}
+				}
 			}
 		}
 	},

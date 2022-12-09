@@ -1,24 +1,24 @@
-2022-12-07 19:10:16.972 - DBeaver 22.3.0.202212041619 is starting
-2022-12-07 19:10:16.972 - OS: Windows 10 10.0 (amd64)
-2022-12-07 19:10:16.972 - Java version: 11.0.12 by Eclipse Foundation (64bit)
-2022-12-07 19:10:16.972 - Install path: 'C:\Users\Filip\AppData\Local\DBeaver'
-2022-12-07 19:10:16.973 - Instance path: 'file:/C:/Users/Filip/Documents/Edunova-2022/'
-2022-12-07 19:10:16.973 - Memory available 270Mb/1024Mb
-2022-12-07 19:10:16.984 - Create display
-2022-12-07 19:10:17.098 - Initializing DBeaver 22.3.0
-2022-12-07 19:10:17.099 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 22.3.0.202212041619
-2022-12-07 19:10:17.099 - Initialize desktop platform...
-2022-12-07 19:10:17.261 - BounceCastle bundle found. Use JCE provider BC
+2022-12-09 19:50:29.368 - DBeaver 22.3.0.202212041619 is starting
+2022-12-09 19:50:29.368 - OS: Windows 10 10.0 (amd64)
+2022-12-09 19:50:29.368 - Java version: 11.0.12 by Eclipse Foundation (64bit)
+2022-12-09 19:50:29.368 - Install path: 'C:\Users\Filip\AppData\Local\DBeaver'
+2022-12-09 19:50:29.368 - Instance path: 'file:/C:/Users/Filip/Documents/Edunova-2022/'
+2022-12-09 19:50:29.368 - Memory available 64Mb/1024Mb
+2022-12-09 19:50:29.384 - Create display
+2022-12-09 19:50:29.493 - Initializing DBeaver 22.3.0
+2022-12-09 19:50:29.493 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 22.3.0.202212041619
+2022-12-09 19:50:29.493 - Initialize desktop platform...
+2022-12-09 19:50:29.681 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.9.500.v20220817-1539]
 > Start Core Resource Management [org.eclipse.core.resources 3.18.0.v20220828-0546]
 > Start Team Support Core [org.eclipse.team.core 3.9.500.v20220817-1539]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.95.202212041619]
-2022-12-07 19:10:17.555 - Initialize base platform...
+2022-12-09 19:50:29.962 - Initialize base platform...
 > Start Expression Language [org.eclipse.core.expressions 3.8.200.v20220613-1047]
-2022-12-07 19:10:17.572 - Platform initialized (473ms)
+2022-12-09 19:50:29.993 - Platform initialized (500ms)
 > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.95.202212041619]
-2022-12-07 19:10:17.586 - Starting RMI server at 51182
-2022-12-07 19:10:17.733 - Run workbench
+2022-12-09 19:50:29.993 - Starting RMI server at 53129
+2022-12-09 19:50:30.134 - Run workbench
 > Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.16.600.v20220607-1204]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.300.v20220613-1047]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.5.0.v20210115-1333]
@@ -31,194 +31,48 @@
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.17.200.v20220613-1008]
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.14.600.v20220621-1327]
 > Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.110.202212041619]
-2022-12-07 19:10:19.260 - Configure workbench window
+2022-12-09 19:50:31.919 - Configure workbench window
 > Start Help System Core [org.eclipse.help 3.9.100.v20210721-0601]
-2022-12-07 19:10:19.330 - Create actions
-2022-12-07 19:10:19.336 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2022-12-07 19:10:19.336 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2022-12-07 19:10:19.337 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2022-12-07 19:10:19.807 - Initialize workbench window
-2022-12-07 19:10:19.807 - Open external file(s) [[C:\Users\Filip\Documents\Edunova-2022\Zavrsni_rad_PP26\sql\webshop.sql]]
+2022-12-09 19:50:32.013 - Create actions
+2022-12-09 19:50:32.029 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2022-12-09 19:50:32.029 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2022-12-09 19:50:32.029 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2022-12-09 19:50:32.466 - Initialize workbench window
+2022-12-09 19:50:32.466 - Open external file(s) [[C:\Users\Filip\Documents\Edunova-2022\Zavrsni_rad_PP26\sql\webshop.sql]]
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.85.202212041619]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.95.202212041619]
 > Start Default Text Editor [org.eclipse.ui.editors 3.14.400.v20220730-1844]
 > Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.16.600.v20220809-1658]
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.95.202212041619]
-> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.85.202212041619]
-> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.95.202212041619]
 > Start Core Compare Support [org.eclipse.compare.core 3.7.100.v20220812-1406]
-2022-12-07 19:10:20.723 - Finish initialization
+2022-12-09 19:50:34.076 - Finish initialization
 > Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.3.1000.v20220801-1135]
 > Start Internet Connection Management UI [org.eclipse.ui.net 1.4.100.v20220812-1406]
 > Start Internet Connection Management [org.eclipse.core.net 1.4.0.v20220813-1037]
+2022-12-09 19:50:34.951 - Total database drivers: 101 (101)
 > Start Console [org.eclipse.ui.console 3.11.300.v20220811-1921]
 > Start Debug Core [org.eclipse.debug.core 3.20.0.v20220811-0741]
 Warning: NLS unused message: pref_page_database_resultsets_group_image in: org.jkiss.dbeaver.ui.editors.data.internal.DataEditorsResources
-2022-12-07 19:10:22.174 - Total database drivers: 101 (101)
 > Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.132.202212041619]
 > Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.101.202212041619]
 > Start Draw2d [org.eclipse.draw2dl 3.12.100.20221014131737]
 > Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20221014131737]
 > Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.55.202212041619]
 > Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.55.202212041619]
-2022-12-07 19:10:24.270 - Open [https://dbeaver.io/product/version.xml]
-2022-12-07 19:10:27.885 - No active connection
-2022-12-07 19:10:32.707 - Connect with 'localhost' (mariaDB-184a5e31dc5-43427f82758bb6ab)
+2022-12-09 19:50:35.810 - Connect with 'localhost' (mariaDB-184a5e31dc5-43427f82758bb6ab)
 > Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.180.202212041619]
-2022-12-07 19:10:32.739 - Execution context opened (localhost; Main; 0)
+2022-12-09 19:50:35.841 - Execution context opened (localhost; Main; 0)
 > Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.119.202212041619]
-2022-12-07 19:10:32.872 - Execution context opened (localhost; Metadata; 1)
-2022-12-07 19:10:32.970 - Connected (mariaDB-184a5e31dc5-43427f82758bb6ab, MariaDB Connector/J [3.0.7])
-2022-12-07 19:10:32.996 - Execution context opened (localhost; SQLEditor <webshop.sql>; 2)
-2022-12-07 19:10:33.583 - Event loop exception
-org.eclipse.swt.SWTException: Widget is disposed
-	at org.eclipse.swt.SWT.error(SWT.java:4918)
-	at org.eclipse.swt.SWT.error(SWT.java:4833)
-	at org.eclipse.swt.SWT.error(SWT.java:4804)
-	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
-	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
-	at org.eclipse.swt.widgets.ToolItem.getBounds(ToolItem.java:241)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.dropdownEvent(AbstractContributionItem.java:418)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:436)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-[ WARN] (DBeaver: Read data [# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 <C:\korisniks\Filip\Documents\Edunova-2022\Zavrsni_rad_PP26\sql\webshop.sql]) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
-2022-12-07 19:10:40.643 - SQL Error [1064] [42000]: (conn=10) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=10) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:916)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3800)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5035)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=10) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-[ WARN] (DBeaver: SQL script execution) Error: 1050-42S01: Table '.\webshop\komentar' already exists
-2022-12-07 19:10:49.157 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1050] [42S01]: (conn=10) Table '.\webshop\komentar' already exists
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:237)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=10) Table '.\webshop\komentar' already exists
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 7 more
-[ WARN] (DBeaver: SQL script execution) Error: 1050-42S01: Table '.\webshop\komentar' already exists
-2022-12-07 19:10:56.832 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1050] [42S01]: (conn=10) Table '.\webshop\komentar' already exists
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:237)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=10) Table '.\webshop\komentar' already exists
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 7 more
-[ WARN] (DBeaver: SQL script execution) Error: 1050-42S01: Table '.\webshop\ocjena' already exists
-2022-12-07 19:10:59.374 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1050] [42S01]: (conn=10) Table '.\webshop\ocjena' already exists
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:237)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=10) Table '.\webshop\ocjena' already exists
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 7 more
+2022-12-09 19:50:35.951 - Execution context opened (localhost; Metadata; 1)
+2022-12-09 19:50:36.029 - Connected (mariaDB-184a5e31dc5-43427f82758bb6ab, MariaDB Connector/J [3.0.7])
+2022-12-09 19:50:36.044 - Execution context opened (localhost; SQLEditor <webshop.sql>; 2)
+2022-12-09 19:50:37.560 - Open [https://dbeaver.io/product/version.xml]
 > Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
 > Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.87.202212041619]
-2022-12-07 19:11:27.618 - Execution context closed (localhost, 2)
-2022-12-07 19:11:27.921 - DBeaver is stopping
-2022-12-07 19:11:27.922 - Stop RMI server
-2022-12-07 19:11:27.923 - RMI controller has been stopped
-2022-12-07 19:11:27.924 - DBeaver shutdown completed
+> Start DBeaver Tasks View [org.jkiss.dbeaver.tasks.ui.view 1.0.44.202212041619]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.73.202212041619]
+2022-12-09 19:53:51.876 - Execution context closed (localhost, 2)
+2022-12-09 19:53:52.173 - DBeaver is stopping
+2022-12-09 19:53:52.188 - Stop RMI server
+2022-12-09 19:53:52.188 - RMI controller has been stopped
+2022-12-09 19:53:52.188 - DBeaver shutdown completed

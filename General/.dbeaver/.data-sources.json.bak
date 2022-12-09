@@ -16,17 +16,6 @@
 			}
 		}
 	},
-	"virtual-models": {
-		"mariaDB-184a5e31dc5-43427f82758bb6ab": {
-			"webshop": {
-				"@properties": {
-					"erd.diagram.state": {
-						"serialized": "\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202212012345\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"mariaDB-184a5e31dc5-43427f82758bb6ab\"\u003e\u003centity id\u003d\"1\" name\u003d\"categories\" fq-name\u003d\"webshop.categories\" order\u003d\"0\" color-bg\u003d\"255,128,128\" x\u003d\"20\" y\u003d\"20\"\u003e\u003cpath name\u003d\"webshop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"dijaprojekcija\" fq-name\u003d\"webshop.dijaprojekcija\" order\u003d\"1\" color-bg\u003d\"0,255,0\" x\u003d\"200\" y\u003d\"20\"\u003e\u003cpath name\u003d\"webshop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"3\" name\u003d\"komentar\" fq-name\u003d\"webshop.komentar\" order\u003d\"2\" color-bg\u003d\"255,255,0\" x\u003d\"700\" y\u003d\"20\"\u003e\u003cpath name\u003d\"webshop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"4\" name\u003d\"korisnik\" fq-name\u003d\"webshop.korisnik\" order\u003d\"3\" color-bg\u003d\"255,0,0\" x\u003d\"200\" y\u003d\"140\"\u003e\u003cpath name\u003d\"webshop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"5\" name\u003d\"kupljeno\" fq-name\u003d\"webshop.kupljeno\" order\u003d\"4\" color-bg\u003d\"255,255,0\" x\u003d\"880\" y\u003d\"20\"\u003e\u003cpath name\u003d\"webshop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"6\" name\u003d\"narudzba\" fq-name\u003d\"webshop.narudzba\" order\u003d\"5\" color-bg\u003d\"255,0,0\" x\u003d\"460\" y\u003d\"20\"\u003e\u003cpath name\u003d\"webshop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"7\" name\u003d\"ocjena\" fq-name\u003d\"webshop.ocjena\" order\u003d\"6\" color-bg\u003d\"255,255,0\" x\u003d\"20\" y\u003d\"160\"\u003e\u003cpath name\u003d\"webshop\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"8\" name\u003d\"proizvod\" fq-name\u003d\"webshop.proizvod\" order\u003d\"7\" color-bg\u003d\"255,0,0\" x\u003d\"440\" y\u003d\"140\"\u003e\u003cpath name\u003d\"webshop\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations/\u003e\u003c/diagram\u003e"
-					}
-				}
-			}
-		}
-	},
 	"connection-types": {
 		"dev": {
 			"name": "Development",

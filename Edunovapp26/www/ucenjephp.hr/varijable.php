@@ -5,13 +5,43 @@
   </head>
 <body>
     <div class="grid-container">
-      <?php 
-      // čitati https://www.simplilearn.com/tutorials/php-tutorial/include-in-php
-      require_once 'izbornik.php'; ?>
+      <?php require_once 'izbornik.php'; ?>
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
           <div class="callout" id="tijelo">
-         Varijable
+          
+          <?php
+            // deklaracija varijable s dodjeljivanje vrijednosti
+            // nema eksplicitnog navođenja tipa podatka
+            $varijabla = 'vrijednost';
+            echo $varijabla, ' ', gettype($varijabla),'<hr>';
+            // varijabla može u bilo kojem trenutku biti bilo koji tip
+            $varijabla=3.14;
+            echo $varijabla, ' ', gettype($varijabla),'<hr>';
+
+            $varijabla=3;
+            echo $varijabla, ' ', gettype($varijabla),'<hr>';
+
+            $varijabla=true;
+            echo $varijabla, ' ', gettype($varijabla),'<hr>';
+
+            $varijabla=[];
+            echo  gettype($varijabla),'<hr>';
+
+            $varijabla=new stdClass();
+            echo  gettype($varijabla),'<hr>';
+
+
+            $i=2;$j=3;
+
+            echo "i=$i, j=$j", '<hr>';
+
+            echo 'i=$i, j=$j', '<hr>';
+
+            echo 'i=' . $i . ', j=' . $j , '<hr>';
+          ?>
+
+
           </div>
         </div>
         <?php include_once 'podnozje.php'; ?>

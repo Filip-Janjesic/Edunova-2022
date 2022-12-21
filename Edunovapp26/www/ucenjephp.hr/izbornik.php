@@ -20,9 +20,12 @@
         </ul>
       </li>
       <li class="has-submenu">
-        <a href="#0">Osonve PHP jezika</a>
+        <a href="#0">Osnove PHP jezika</a>
         <ul class="submenu menu vertical" data-submenu>
           <li><a href="varijable.php">Varijable</a></li>
+          <li><a href="jednakostvarijable.php">Jednakost varijable</a></li>
+          <li><a href="ugradenevarijable.php">Ugrađene varijable</a></li>
+          
         </ul>
       </li>
     </ul>

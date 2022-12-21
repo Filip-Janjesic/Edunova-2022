@@ -26,6 +26,15 @@
             echo $broj, ' ', gettype($broj),'<hr>';
 
 
+            echo '<pre>';
+            print_r($_SERVER);
+            echo '</pre>';
+
+            echo $_SERVER['HTTP_ACCEPT_LANGUAGE'],'<hr>';
+
+            echo __DIR__;
+
+
           ?>
 
 

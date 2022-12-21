@@ -25,7 +25,7 @@
           <li><a href="varijable.php">Varijable</a></li>
           <li><a href="jednakostvarijable.php">Jednakost varijable</a></li>
           <li><a href="ugradenevarijable.php">Ugrađene varijable</a></li>
-          
+          <li><a href="osnovnioperatori.php">Osnovni operatori</a></li>
         </ul>
       </li>
     </ul>

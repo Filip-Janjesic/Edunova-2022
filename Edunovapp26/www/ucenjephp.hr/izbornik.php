@@ -6,13 +6,13 @@
 <div class="top-bar" id="example-menu">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">Učenje PHP</li>
+      <li>
+        <a href= 'index.php'> Učenje PHP</a>
+      </li>
       <li class="has-submenu">
-        <a href="#0">One</a>
+        <a href="#0">Suživot HTML i PHP</a>
         <ul class="submenu menu vertical" data-submenu>
-          <li><a href="#0">One</a></li>
-          <li><a href="#0">Two</a></li>
-          <li><a href="#0">Three</a></li>
+          <li><a href="helloworld.php">Hello world</a></li>
         </ul>
       </li>
     </ul>

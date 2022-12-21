@@ -10,8 +10,9 @@
       require_once 'izbornik.php'; ?>
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
-          <div class="callout" id="tijelo">
-          Koristite gornji izbornik
+          <div class="callout" id="tijelo"
+          style="background-color: <?=$_GET['boja']; ?>">
+          Zadatak 1
           </div>
         </div>
         <?php include_once 'podnozje.php'; ?>

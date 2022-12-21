@@ -11,7 +11,17 @@
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
           <div class="callout" id="tijelo">
-          Koristite gornji izbornik
+          Zadatak 2
+          <hr>
+          Za primljeni ključ grad stranica ispisuje ime 
+          grada sve velikim slovima crvenom bojom
+          <hr>
+          <div style="text-transform: uppercase; color: red;">
+            <?php
+              echo $_GET['grad'];
+            ?>
+          </div>
+     
           </div>
         </div>
         <?php include_once 'podnozje.php'; ?>

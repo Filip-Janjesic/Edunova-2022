@@ -9,7 +9,9 @@
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
           <div class="callout" id="tijelo">      
-            Hello world
+            <?php
+            echo 'Hello world';
+            ?>
           </div>
         </div>
         <?php include_once 'podnozje.php'; ?>

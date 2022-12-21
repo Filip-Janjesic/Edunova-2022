@@ -19,6 +19,12 @@
           <li><a href="zadatak2.php?grad=Osijek">Zadatak 2</a></li>
         </ul>
       </li>
+      <li class="has-submenu">
+        <a href="#0">Osonve PHP jezika</a>
+        <ul class="submenu menu vertical" data-submenu>
+          <li><a href="varijable.php">Varijable</a></li>
+        </ul>
+      </li>
     </ul>
   </div>
 </div>

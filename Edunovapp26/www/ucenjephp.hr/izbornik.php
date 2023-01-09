@@ -26,6 +26,9 @@
           <li><a href="jednakostvarijable.php">Jednakost varijable</a></li>
           <li><a href="ugradenevarijable.php">Ugrađene varijable</a></li>
           <li><a href="osnovnioperatori.php">Osnovni operatori</a></li>
+          <li><a target="_blank" href="uvjetnogrananjeif.php">Uvjetno grananje if</a></li>
+          <li><a target="_blank" href="zadatak3.php">Zadatak 3</a></li>
+          <li><a target="_blank" href="uvjetnogrananjeswitch.php">Uvjetno grananje switch</a></li>
         </ul>
       </li>
     </ul>

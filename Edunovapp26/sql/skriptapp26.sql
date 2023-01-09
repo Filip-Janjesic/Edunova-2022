@@ -2,9 +2,10 @@
 # Izvođenje naredbi na serveru
 # Otvoriti CMD
 # Zaljepiti sljedeću naredbu bez prvog hash znaka
-# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 <C:\Users\Polaznik\Documents\Edunova-2022\Edunovapp26\sql\skriptapp26.sql
-# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 <C:\Users\Filip\Documents\Edunova-2022\Edunovapp26\sql\skriptapp26.sql
+# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < C:\Users\dell\Documents\EdunovaPP26\SQL\skriptapp26.sql
 
+# Kada putanja ima razmak onda se putanja stavlja pod navodnike
+# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < "C:\Users\dell\Documents\Edunova PP26\SQL\skriptapp26.sql"
 
 drop database if exists edunovapp26;
 create database edunovapp26 default charset utf8;
@@ -23,9 +24,9 @@ create table grupa(
     sifra int not null primary key auto_increment,
     naziv varchar(50) not null,
     maksimalnopolaznika int not null,
-    datumpocetka datetime,
+    datumpocetka datetime null, # ovaj null i ne treba pisati
     smjer int not null,
-    predavac int 
+    predavac int
 );
 
 create table osoba(
@@ -50,7 +51,7 @@ create table predavac(
 
 create table clan(
     grupa int not null,
-    polaznik int not null
+    polaznik int null
 );
 
 
@@ -64,28 +65,39 @@ alter table polaznik add foreign key (osoba) references osoba(sifra);
 alter table predavac add foreign key (osoba) references osoba(sifra);
 
 
-#smjer
 
-# 1
-insert into smjer values (null,'PHP programiranje',5999.99,500,130,false);
+# najlošija verzija
+# 1 - primarni ključ koji će biti vanjski u tablici grupa
+insert into smjer 
+values (null,'PHP programiranje',
+5999.99,500,130,false);
+
+# bolja verzija
 # 2
-insert into smjer (naziv, trajanje, certificiran)
+insert into smjer (naziv,trajanje,
+certificiran)
 values ('Java programiranje',130,true);
+
+# verzija po principu najbolja praksa
 # 3
-insert into smjer (sifra,naziv,cijena,upisnina,trajanje,certificiran)
+insert into smjer (sifra,naziv,cijena,
+upisnina, trajanje, certificiran)
 values
 (null,'Serviser',null,null,180,false);
 
-#grupa
 
 # 1
-insert into grupa (naziv,maksimalnopolaznika,smjer)
-values ('PP26',20,1);
-# 2
-insert into grupa (naziv,maksimalnopolaznika,smjer)
-values ('JP27',22,2);
+insert into grupa 
+(naziv,maksimalnopolaznika,smjer)
+values 
+('PP26',20,1);
 
-#osobe
+# 2
+insert into grupa 
+(naziv,maksimalnopolaznika,smjer)
+values ('JP27',20,2);
+
+
 # 1 - 19
 insert into osoba (ime,prezime,email)
 values
@@ -109,21 +121,29 @@ values
 ('Filip','Janješić','filip.janjesic@gmail.com'),
 ('Tomislav','Ružičić','truzicic@gmail.com');
 
-#polaznik
-# 1 - 19 
-insert into polaznik(osoba)
-values (1),(2),(3),(4),(5),(6),(7),(8),(9),(10),(11),(12),(13),(14),(15),(16),(17),(18),(19);
 
-#predavac
-insert into osoba  (ime,prezime,email)
-values ('Tomislv','Jakopec','tjakopec@gmail.com');
 
+
+
+# 1 - 19
+insert into polaznik (osoba)
+values (1),(2),(3),(4),(5),(6),(7),(8),(9),(10),
+(11),(12),(13),(14),(15),(16),(17),(18),(19);
+
+
+# 20
+insert into osoba (ime,prezime,email)
+values ('Tomislav','Jakopec','tjakopec@gmail.com');
+
+# 1
 insert into predavac (osoba) values (20);
 
-#clan
-insert into clan (grupa,polaznik)
+
+insert into clan(grupa,polaznik)
 values
-(1,1),(1,2),(1,3),(1,4),(1,5),(1,6),(1,7),(1,8),(1,9),(1,10),(1,11),(1,12),(1,13),(1,14),(1,15),(1,16),(1,17),(1,18),(1,19);
+(1,1),(1,2),(1,3),(1,4),(1,5),(1,6),(1,7),(1,8),
+(1,9),(1,10),(1,11),(1,12),(1,13),(1,14),(1,15),
+(1,16),(1,17),(1,18),(1,19);
 
 
 update grupa set datumpocetka='2022-11-07 19:00:00'

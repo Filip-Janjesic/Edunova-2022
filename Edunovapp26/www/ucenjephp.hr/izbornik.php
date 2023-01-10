@@ -18,6 +18,7 @@
           <li><a target="_blank" href="zadatak1.php?boja=red">Zadatak 1</a></li>
           <li><a target="_blank" href="zadatak2.php?grad=Osijek">Zadatak 2</a></li>
           <li><a target="_blank" href="zadatak3.php">Zadatak 3</a></li>
+          <li><a target="_blank" href="zadaca.php">Zadaća</a></li>
         </ul>
       </li>
       <li class="has-submenu">

@@ -93,13 +93,30 @@ for($i=0;$i<10;$i++){
 echo '<hr>';
 
 // ugnježđivanje petlji
+echo '<table>';
+for($i=1;$i<=10;$i++){
+    echo '<tr>';
+    for($j=1;$j<=10;$j++){
+        echo '<td style="text-align: right;">' . $i * $j, '</td>';
+    }
+    echo '</tr>';
+}
+echo '</table>';
 
+// prekidanje vanjske petlje
 for($i=1;$i<=10;$i++){
     for($j=1;$j<=10;$j++){
-        echo $i * $j, ' ';
+       if($j===3){
+        break 2; // prekida vanjsku petlju (i unutarnju)
+       }
     }
-    echo '<br>';// prelazak u novi red
 }
+
+// beskonačna petlja
+for(;;){
+break;
+}
+
 
 
 

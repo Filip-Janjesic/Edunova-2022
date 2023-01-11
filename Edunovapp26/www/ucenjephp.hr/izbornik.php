@@ -21,6 +21,7 @@
           <li><a target="_blank" href="zadaca.php">Zadaća</a></li>
           <li><a target="_blank" href="zadatak4.php">Zadatak 4</a></li>
           <li><a target="_blank" href="forpetlja.php">For petlja</a></li>
+          <li><a target="_blank" href="incrementdecrement.php">Inkrement dekrement</a></li>
         </ul>
       </li>
       <li class="has-submenu">

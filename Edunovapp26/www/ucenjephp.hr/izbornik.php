@@ -19,6 +19,8 @@
           <li><a target="_blank" href="zadatak2.php?grad=Osijek">Zadatak 2</a></li>
           <li><a target="_blank" href="zadatak3.php">Zadatak 3</a></li>
           <li><a target="_blank" href="zadaca.php">Zadaća</a></li>
+          <li><a target="_blank" href="zadatak4.php">Zadatak 4</a></li>
+          <li><a target="_blank" href="forpetlja.php">For petlja</a></li>
         </ul>
       </li>
       <li class="has-submenu">

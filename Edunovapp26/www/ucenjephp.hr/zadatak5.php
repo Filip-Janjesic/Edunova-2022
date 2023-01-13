@@ -15,5 +15,5 @@ echo '<hr>';
 $i = 1; $j = 2; $l = 3;
 echo $i = ++$i + $j - $l--; // i= j= l=
 echo $j += ++$l + $i - --$j; // i= j= l=
-echo $l -= --$j - $l + ++$i; // i=1 j=4 l=1
-echo $i + $j - $l; // 4
+echo $l -= --$j - $l + ++$i; // i= j= l=
+echo $i + $j - $l; // 

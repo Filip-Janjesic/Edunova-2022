@@ -17,6 +17,9 @@
           <li><a href="ulazniparametri.php?kljuc=Ana&x=5">Ulazni parametri</a></li>
           <li><a href="zadatak1.php?boja=red">Zadatak 1</a></li>
           <li><a href="zadatak2.php?grad=Osijek">Zadatak 2</a></li>
+          <li><a target="_blank" href="zadatak3.php">Zadatak 3</a></li>
+          <li><a target="_blank" href="zadatak4.php">Zadatak 4</a></li>
+          <li><a target="_blank" href="zadatak5.php">Zadatak 5</a></li>
         </ul>
       </li>
       <li class="has-submenu">
@@ -27,9 +30,7 @@
           <li><a href="ugradenevarijable.php">Ugrađene varijable</a></li>
           <li><a href="osnovnioperatori.php">Osnovni operatori</a></li>
           <li><a target="_blank" href="uvjetnogrananjeif.php">Uvjetno grananje if</a></li>
-          <li><a target="_blank" href="zadatak3.php">Zadatak 3</a></li>
           <li><a target="_blank" href="uvjetnogrananjeswitch.php">Uvjetno grananje switch</a></li>
-          <li><a target="_blank" href="zadatak4.php">Zadatak 4</a></li>
           <li><a target="_blank" href="forpetlja.php">For petlja</a></li>
           <li><a target="_blank" href="incrementdecrement.php">Inkrement / dekrement</a></li>
           <li><a target="_blank" href="nizovi.php">Nizovi</a></li>

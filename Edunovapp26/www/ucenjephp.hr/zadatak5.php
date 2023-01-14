@@ -16,7 +16,6 @@ echo $i = ++$i + $j;   //
 echo $j = $i - --$j;   //
 echo $i + $j;          // 
 
-
 echo '<hr>';
 
 $i = 1; $j = 2;
@@ -24,10 +23,23 @@ echo $i = $i + $j;    //
 echo $j = $i - --$j;  // 
 echo $i + ++$j;       // 
 
-
 echo '<hr>';
 
 $i = 1; $j = 2;
 echo $i += $i + $j++;    // 
 echo $j -= $i - --$j;    // 
 echo $i++ + ++$j;        // 
+
+echo '<hr>';
+
+$i=3; $j=2;
+echo $i += ++$j - $i; //
+echo $j = --$i + $j; //
+echo ++$i + $j--; //
+
+echo '<hr>';
+
+$i = 1; $j = 2;
+echo $i = $i++ + $j;    // 
+echo $j = --$i - --$j;  // 
+echo $i + ++$j;       //

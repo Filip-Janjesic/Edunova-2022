@@ -18,6 +18,12 @@ if(!isset($_GET['ime'])){ // prima parametre, vraća vrijednost
 
 */
 
+// Ovo je stari način rada s funkcijama,
+// kada su funkcije deklarirane u php datoteci
+// koja se učita i koriste se funkcije na način
+// da se samo pozovu imenom
+
+
 // ne prima parametre, ne vraća vrijednost
 function pozdraviSvijet(){
     echo '<hr>Hello world';
@@ -60,7 +66,7 @@ l($s);
 
 
 // prima parametre, vraća vrijednost
-function primBroj($broj){
+function primBroj($broj,$z=0){ // $z=0 znači da ako poziv funckije ne sadrži vrijednost za varijablu $z ona dobiva vrijednost 0
     for($i=2;$i<$broj;$i++){
         if($broj % $i===0){
             return false; // prekida izvođenje funkcije

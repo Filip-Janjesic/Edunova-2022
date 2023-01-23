@@ -43,6 +43,7 @@
           <li><a target="_blank" href="nizovi.php">Nizovi</a></li>
           <li><a target="_blank" href="ugradeninizovi.php">Ugrađeni nizovi</a></li>
           <li><a href="forme.php">HTML forme</a></li>
+          <li><a target="_blank" href="funkcije.php">Funkcije</a></li>
           </ul>
             </li>
           <li>

@@ -56,6 +56,8 @@
             <ul class="submenu menu vertical" data-submenu>
               <li><a target="_blank" href="klasaobjekt.php">Klasa/objekt</a></li>
               <li><a target="_blank" href="ucahurivanje.php">Učahurivanje</a></li>
+              <li><a target="_blank" href="magicnemetode.php">Magične metode</a></li>
+              <li><a target="_blank" href="nasljedivanje.php">Nasljeđivanje</a></li>
             </ul>
           </li>
           </ul>

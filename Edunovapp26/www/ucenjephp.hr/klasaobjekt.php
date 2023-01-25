@@ -1,5 +1,7 @@
 <?php
 
+// čitati https://github.com/tjakopec/OOP_JAVA_PHP_PYTHON_SWIFT
+
 include_once 'Pomocno.php';
 
 // Klasa je opisnik objekta

@@ -1,4 +1,6 @@
+
 <?php 
+
 $gradovi=['Valpovo','Osijek','Zagreb','Donji Miholjac'];
 if($_SERVER['REQUEST_METHOD']==='POST'){
   $pb=(int)$_POST['pb'];
@@ -57,7 +59,6 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
 //echo '</pre>';
 
 ?>
-
 
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">

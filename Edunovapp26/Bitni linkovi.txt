@@ -1,0 +1,5 @@
+https://github.com/ivanweiler/magic-of-modern-php
+
+https://github.com/tjakopec/OOP_JAVA_PHP_PYTHON_SWIFT/blob/master/PHP/src/Jakopec/Igrac.php
+
+https://www.php.net/manual/en/language.oop5.magic.php

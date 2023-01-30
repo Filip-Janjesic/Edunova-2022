@@ -1,13 +1,16 @@
 Magične metode
+
 https://github.com/ivanweiler/magic-of-modern-php
+
 https://www.php.net/manual/en/language.oop5.magic.php
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 OOP
+
 https://github.com/tjakopec/OOP_JAVA_PHP_PYTHON_SWIFT/blob/master/PHP/src/Jakopec/Igrac.php
 
-
-https://github.com/CostingGeek/advent-of-code-2020
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PHP
 
 https://www.php.net/manual/en/function.isset.php
 
@@ -23,9 +26,11 @@ https://www.php-fig.org/psr/
 
 https://stackoverflow.com/questions/234241/how-are-echo-and-print-different-in-php
 
+https://www.codecademy.com/learn/learn-php/modules/learn-php-arrays/cheatsheet
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+https://github.com/CostingGeek/advent-of-code-2020
 https://projecteuler.net/
 https://adventofcode.com/
 https://www.w3resource.com/c-programming-exercises/

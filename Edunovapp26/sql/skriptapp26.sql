@@ -8,7 +8,7 @@
 # c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < "C:\Users\dell\Documents\Edunova PP26\SQL\skriptapp26.sql"
 
 drop database if exists edunovapp26;
-create database edunovapp26 default charset utf8;
+create database edunovapp26 default charset utf8mb4;
 use edunovapp26;
 
 create table smjer(

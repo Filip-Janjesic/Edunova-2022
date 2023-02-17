@@ -133,13 +133,13 @@ $email = isset($_GET['email']) ? $_GET['email'] : (isset($_COOKIE['email']) ? $_
   </head>
   <body>
 
-    <h2>Modal Login Form</h2>
+    <h2>Welcome to polaznik 40 page</h2>
 
     <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
     <div id="id01" class="modal">
       
-      <form class="modal-content animate" action="/zasticeno.php" method="post">
+      <form class="modal-content animate" action="autorizacija.php" method="post">
         <div class="imgcontainer">
           <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
           <img src="img_avatar2.png" alt="Avatar" class="avatar">

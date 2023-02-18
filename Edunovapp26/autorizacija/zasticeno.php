@@ -5,7 +5,7 @@ session_start();
 //echo '</pre>';
 
 if(!$_SESSION['auth']){
-    header('location: index.php');
+    header('location: izbornik.php');
 }
 
 ?>

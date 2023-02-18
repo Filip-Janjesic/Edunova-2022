@@ -14,7 +14,7 @@
           <li><a target="_blank" href="zadatak3.php">Zadatak 3</a></li>
           <li><a target="_blank" href="ciklicnamatrica.hr/index.php">Ciklična matrica</a></li>
           <li><a target="_blank" href="ljubavnikalkulator.hr/index.php">Ljubavni kalkulator</a></li>
-          <li><a target="_blank" href="zadatak6.php">Ispiši zbroj svih primljenih brojeva</a></li>
+          <li><a target="_blank" href="zimskazadaca.hr">Zimska zadaca</a></li>
         </ul>
       </li>
     </ul>

@@ -40,8 +40,8 @@ values (:naziv,:trajanje,:certificiran);
 
           <label for="certificiran">Certificiran</label>
           <select name="certificiran" id="certificiran">
-            <option value="true">DA</option>
-            <option value="false">NE</option>
+            <option value="1">DA</option>
+            <option value="0">NE</option>
           </select>
 
           <input type="submit" class="success button expanded" value="Unesi">

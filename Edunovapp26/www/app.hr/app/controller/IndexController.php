@@ -1,6 +1,6 @@
 <?php
 
-class IndexController
+class IndexController extends Controller
 {
 
 
@@ -8,8 +8,34 @@ class IndexController
 
     public function index()
     {
-        $view = new View();
-        $view->render('index');
+
+        // $c = new Controller();   Cannot instantiate abstract class Controller
+        $this->view->render('index',[
+            'iznos'=>12,
+            'podaci'=>[
+                2,4,5,6,15,4,4
+            ]
+        ]);
+        
+    }
+
+    public function kontakt()
+    {
+        $this->view->render('kontakt');
+        
+    }
+
+    public function api()
+    {
+        $this->view->api([
+            'podaci'=>[
+                'id'=>2,
+                'osoba'=>[
+                    'ime'=>'Pero',
+                    'prezime'=>'Perić'
+                ]
+            ]
+        ]);
         
     }
 

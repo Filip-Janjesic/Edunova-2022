@@ -1,19 +1,21 @@
 <?php
 
-class App{
+class App
+{
     // Ova metoda ima zadatak saznati što želiš i to pokrenuti
-    public static function start(){
+    public static function start()
+    {
         //echo '<pre>';
        // print_r($_SERVER);
         //echo '</pre>';
 
         $ruta = Request::getRuta();
 
-        Log::info($ruta);
+        //Log::info($ruta); //     /smjer/index
 
         $djelovi = explode('/',substr($ruta,1));
 
-        Log::info($djelovi);
+       // Log::info($djelovi);
 
         // idem razaznati Controller
         $controller='';
@@ -23,7 +25,7 @@ class App{
             $controller = ucfirst($djelovi[0]) . 'Controller';
         }
 
-        Log::info($controller);
+        //Log::info($controller);
 
         // idem razaznati metodu
 
@@ -34,7 +36,7 @@ class App{
             $metoda=$djelovi[1];
         }
 
-        Log::info($metoda);
+        //Log::info($metoda);
 
         if(!(class_exists($controller) && method_exists($controller,$metoda))){
             echo 'Ne postoji ' . $controller . '-&gt;' . $metoda;

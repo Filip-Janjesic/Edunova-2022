@@ -1,12 +1,16 @@
 <?php
 
-class IndexController{
+class IndexController
+{
 
 
     // kasnije ćemo staviti konstruktor
 
-    public function index(){
-        echo 'hello index controller';
+    public function index()
+    {
+        $view = new View();
+        $view->render('index');
+        
     }
 
 

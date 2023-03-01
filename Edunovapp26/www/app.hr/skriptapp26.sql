@@ -1,11 +1,5 @@
-# ljestve (hash) je komentar i on se ne izvodi
-# Izvođenje naredbi na serveru
-# Otvoriti CMD
-# Zaljepiti sljedeću naredbu bez prvog hash znaka
-# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < C:\Users\Polaznik\Documents\Edunova-2022\Edunovapp26\www\app.hr\skriptapp26.sql
 
-# Kada putanja ima razmak onda se putanja stavlja pod navodnike
-# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < "C:\Users\Polaznik\Documents\Edunova-2022\Edunovapp26\www\app.hr\skriptapp26.sql"
+# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < C:\Users\dell\Documents\EdunovaPP26\www\app.hr\skriptapp26.sql
 
 drop database if exists edunovapp26;
 create database edunovapp26 default charset utf8mb4;
@@ -20,8 +14,18 @@ create table operater(
     uloga varchar(20) not null
 );
 
-insert into operater (ime,prezime,email,lozinka)
-values ('Edunova','Operater','oper@edunova.hr','$2a$12$kafMh28opHwzSHxx.yvL2ui0hUW8twtccjXZOvoEFFms9qTkNLhEK','uloga');
+insert into operater (ime,prezime,email,lozinka,uloga)
+values ('Edunova','Operater','oper@edunova.hr',
+'$2y$10$m8IvoBWyKZSqv149xoB//eEd/nPB56JGlRYM0Vann7X2cPUMKvXc2',
+'oper'
+);
+
+insert into operater (ime,prezime,email,lozinka,uloga)
+values ('Admin','Operater','admin@edunova.hr',
+'$2y$10$m8IvoBWyKZSqv149xoB//eEd/nPB56JGlRYM0Vann7X2cPUMKvXc2',
+'admin'
+);
+
 
 create table smjer(
     sifra int not null primary key auto_increment,

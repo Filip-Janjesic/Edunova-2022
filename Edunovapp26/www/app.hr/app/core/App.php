@@ -56,4 +56,9 @@ class App
         . ' ' . $_SESSION['auth']->prezime ;
     }
 
+    public static function admin()
+    {
+        return $_SESSION['auth']->uloga==='admin' ;
+    }
+
 }

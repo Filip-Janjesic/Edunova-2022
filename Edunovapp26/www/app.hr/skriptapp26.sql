@@ -16,11 +16,12 @@ create table operater(
     ime varchar(50) not null,
     prezime varchar(50) not null,
     email varchar(50) not null,
-    lozinka char(61) not null
+    lozinka char(61) not null,
+    uloga varchar(20) not null
 );
 
 insert into operater (ime,prezime,email,lozinka)
-values ('Edunova','Operater','oper@edunova.hr','$2a$12$kafMh28opHwzSHxx.yvL2ui0hUW8twtccjXZOvoEFFms9qTkNLhEK');
+values ('Edunova','Operater','oper@edunova.hr','$2a$12$kafMh28opHwzSHxx.yvL2ui0hUW8twtccjXZOvoEFFms9qTkNLhEK','uloga');
 
 create table smjer(
     sifra int not null primary key auto_increment,

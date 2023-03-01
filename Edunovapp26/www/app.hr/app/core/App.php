@@ -45,4 +45,15 @@ class App
 
     }
 
+    public static function auth()
+    {
+        return isset($_SESSION['auth']);
+    }
+
+    public static function operater()
+    {
+        return $_SESSION['auth']->ime 
+        . ' ' . $_SESSION['auth']->prezime ;
+    }
+
 }

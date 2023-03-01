@@ -35,7 +35,11 @@ class PrijavaController extends Controller
             return;    
         }
 
-        // uspječno logiran
+        // uspješno logiran
+        $_SESSION['auth']=$operater;
+        header('location:' . App::config('url') . 
+        'nadzornaploca/index');
+
 
         
     }

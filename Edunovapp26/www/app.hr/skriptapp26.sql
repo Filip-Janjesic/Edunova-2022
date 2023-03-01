@@ -1,15 +1,23 @@
-# ljestve (hash) je komentar i on se ne izvodi
-# Izvođenje naredbi na serveru
-# Otvoriti CMD
-# Zaljepiti sljedeću naredbu bez prvog hash znaka
-# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < C:\Users\dell\Documents\EdunovaPP26\SQL\skriptapp26.sql
 
-# Kada putanja ima razmak onda se putanja stavlja pod navodnike
-# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < "C:\Users\dell\Documents\Edunova PP26\SQL\skriptapp26.sql"
+# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < C:\Users\dell\Documents\EdunovaPP26\www\app.hr\skriptapp26.sql
 
 drop database if exists edunovapp26;
 create database edunovapp26 default charset utf8mb4;
 use edunovapp26;
+
+create table operater(
+    sifra int not null primary key auto_increment,
+    ime varchar(50) not null,
+    prezime varchar(50) not null,
+    email varchar(50) not null,
+    lozinka char(61) not null
+);
+
+insert into operater (ime,prezime,email,lozinka)
+values ('Edunova','Operater','oper@edunova.hr',
+'$2y$10$m8IvoBWyKZSqv149xoB//eEd/nPB56JGlRYM0Vann7X2cPUMKvXc2'
+);
+
 
 create table smjer(
     sifra int not null primary key auto_increment,
@@ -144,9 +152,3 @@ values
 (1,1),(1,2),(1,3),(1,4),(1,5),(1,6),(1,7),(1,8),
 (1,9),(1,10),(1,11),(1,12),(1,13),(1,14),(1,15),
 (1,16),(1,17),(1,18),(1,19);
-
-
-update grupa set datumpocetka='2022-11-07 19:00:00'
-where sifra=1;
-
-delete from smjer where sifra=3;

@@ -25,6 +25,17 @@ class PrijavaController extends Controller
         }
 
         // ovdje sam siguran da imam email o lozinku
+        $operater = Operater::autoriziraj($_POST['email'],$_POST['password']);
+
+        if($operater==null){
+            $this->view->render('prijava',[
+                'poruka'=>'Kombinacija email i lozinka se ne podudaraju',
+                'email'=>$_POST['email']
+            ]);
+            return;    
+        }
+
+        // uspječno logiran
 
         
     }

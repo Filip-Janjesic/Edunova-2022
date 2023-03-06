@@ -6,6 +6,7 @@ $dev = $_SERVER['SERVER_ADDR']==='127.0.0.1' ? true : false;
 if($dev){
     return [
         'dev'=>$dev,
+        'formatBroja'=>'###,##0.00',
         'url'=>'http://app.hr/',
         'nazivApp'=>'Edunova APP',
         'baza'=>[
@@ -17,6 +18,7 @@ if($dev){
 }else{
     return [
         'dev'=>$dev,
+        'formatBroja'=>'###,##0.00',
         'url'=>'https://predavac01.edunova.hr/',
         'nazivApp'=>'Edunova APP',
         'baza'=>[

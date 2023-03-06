@@ -16,20 +16,26 @@ class SmjerController extends AutorizacijaController
     }
 
     public function index()
-    {
+    {        
+     $this->view->render($this->viewPutanja . 
+            'index',[
+                'podaci'=>$this->prilagodiPodatke(Smjer::read()),
+                'css'=>'smjer.css'
+            ]);   
+    }
 
-        $smjerovi = Smjer::read();
+    private function prilagodiPodatke($smjerovi)
+    {
         foreach($smjerovi as $s){
             $s->cijena=$this->formatIznosa($s->cijena);
             $s->upisnina=$this->formatIznosa($s->upisnina);
             $s->certificiran=$s->certificiran ? 'check' : 'x';
+            $s->title=$s->naziv;
+            if(strlen($s->naziv)>20){
+                $s->naziv = substr($s->naziv,0,15) . '...' . substr($s->naziv,strlen($s->naziv)-5);
+            }
         }
-
-     $this->view->render($this->viewPutanja . 
-            'index',[
-                'podaci'=>$smjerovi,
-                'css'=>'smjer.css'
-            ]);   
+        return $smjerovi;
     }
 
     private function formatIznosa($broj)
@@ -37,8 +43,6 @@ class SmjerController extends AutorizacijaController
         if($broj==null){
             return $this->nf->format(0);
         }
-        
-        return $this->nf->format($broj);
-        
+        return $this->nf->format($broj); 
     }
 }

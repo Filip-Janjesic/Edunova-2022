@@ -16,7 +16,11 @@
     <tbody>
         <?php foreach($podaci as $red): ?>
             <tr>
-                <td><?=$red->naziv?></td>
+                <td>
+                    <span title="<?=$red->title?>">
+                        <?=$red->naziv?>
+                    </span>
+                    </td>
                 <td><?=$red->cijena?></td>
                 <td><?=$red->upisnina?></td>
                 <td><?=$red->trajanje?></td>

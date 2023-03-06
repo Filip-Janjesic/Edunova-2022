@@ -5,6 +5,9 @@ drop database if exists edunovapp26;
 create database edunovapp26 default charset utf8mb4;
 use edunovapp26;
 
+# samo za cpanel
+alter database cesar_edunovapp26 charset utf8mb4;
+
 create table operater(
     sifra int not null primary key auto_increment,
     ime varchar(50) not null,

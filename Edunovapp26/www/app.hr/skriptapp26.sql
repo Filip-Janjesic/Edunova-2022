@@ -1,5 +1,5 @@
 
-# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < C:\Users\dell\Documents\EdunovaPP26\www\app.hr\skriptapp26.sql
+# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < C:\Users\Filip\Documents\Edunova-2022\Edunovapp26\www\app.hr\skriptapp26.sql
 
 drop database if exists edunovapp26;
 create database edunovapp26 default charset utf8mb4;

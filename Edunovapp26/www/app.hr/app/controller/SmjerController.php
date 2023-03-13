@@ -83,6 +83,7 @@ class SmjerController extends AutorizacijaController
             return;
         }
 
+
         // ovdje je POST
         $this->pripremiZaView();
         if(!$this->kontrolaPromjena()){// kontrolirati podatke, ako nešto ne valja vratiti na view s porukom 
@@ -104,6 +105,16 @@ class SmjerController extends AutorizacijaController
         ]);  
 
 
+    }
+
+    public function brisanje($sifra=0){
+        $sifra=(int)$sifra;
+        if($sifra===0){
+            header('location: ' . App::config('url') . 'index/odjava');
+            return;
+        }
+        Smjer::delete($sifra);
+        header('location: ' . App::config('url') . 'smjer/index');
     }
 
     private function pozoviView($parametri)

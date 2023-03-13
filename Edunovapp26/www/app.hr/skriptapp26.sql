@@ -1,12 +1,10 @@
 
-# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < C:\Users\Filip\Documents\Edunova-2022\Edunovapp26\www\app.hr\skriptapp26.sql
+# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 < C:\Users\Polaznik\Documents\Edunova-2022\Edunovapp26\www\app.hr\skriptapp26.sql
 
 drop database if exists edunovapp26;
 create database edunovapp26 default charset utf8mb4;
 use edunovapp26;
 
-# samo za cpanel
-alter database cesar_edunovapp26 charset utf8mb4;
 
 create table operater(
     sifra int not null primary key auto_increment,
@@ -156,6 +154,13 @@ values ('Tomislav','Jakopec','tjakopec@gmail.com');
 
 # 1
 insert into predavac (osoba) values (20);
+
+# 21
+insert into osoba (ime,prezime,email)
+values ('Marija','Zimska','mzimska@gmail.com');
+
+# 2
+insert into predavac (osoba) values (21);
 
 
 insert into clan(grupa,polaznik)

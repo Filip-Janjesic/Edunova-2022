@@ -1,6 +1,8 @@
 <?php
 
-class SmjerController extends AutorizacijaController
+class SmjerController 
+extends AutorizacijaController
+implements ViewSucelje
 {
 
     private $viewPutanja = 'privatno' . 
@@ -54,16 +56,7 @@ class SmjerController extends AutorizacijaController
     public function promjena($sifra='')
     {
         if($_SERVER['REQUEST_METHOD']==='GET'){
-            if(strlen(trim($sifra))===0){
-                header('location: ' . App::config('url') . 'index/odjava');
-                return;
-            }
-
-            $sifra=(int)$sifra;
-            if($sifra===0){
-                header('location: ' . App::config('url') . 'index/odjava');
-                return;
-            }
+            $this->provjeraIntParametra($sifra);
 
             $this->e = Smjer::readOne($sifra);
 
@@ -82,6 +75,7 @@ class SmjerController extends AutorizacijaController
             ]);  
             return;
         }
+
 
         // ovdje je POST
         $this->pripremiZaView();
@@ -106,19 +100,29 @@ class SmjerController extends AutorizacijaController
 
     }
 
+    public function brisanje($sifra=0){
+        $sifra=(int)$sifra;
+        if($sifra===0){
+            header('location: ' . App::config('url') . 'index/odjava');
+            return;
+        }
+        Smjer::delete($sifra);
+        header('location: ' . App::config('url') . 'smjer/index');
+    }
+
     private function pozoviView($parametri)
     {
         $this->view->render($this->viewPutanja . 
        'novi',$parametri);  
     }
 
-    private function pripremiZaView()
+    public function pripremiZaView()
     {
         $this->e = (object)$_POST;
         $this->e->certificiran = $this->e->certificiran==='true' ? true : false;
     }
 
-    private function pripremiZaBazu()
+    public function pripremiZaBazu()
     {
         $this->e->cijena = $this->nf->parse($this->e->cijena);
        $this->e->upisnina = $this->nf->parse($this->e->upisnina);
@@ -187,7 +191,7 @@ class SmjerController extends AutorizacijaController
         return true;
     }
 
-    private function pocetniPodaci()
+    public function pocetniPodaci()
     {
         $e = new stdClass();
         $e->naziv='';

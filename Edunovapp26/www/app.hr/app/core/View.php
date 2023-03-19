@@ -13,6 +13,16 @@ class View
 
     public function render($phtmlStranica,$parametri=[])
     {
+        
+        //Log::info($phtmlStranica);
+        $cssDatoteka = BP . 'public' .
+        DIRECTORY_SEPARATOR . 'css' .
+        DIRECTORY_SEPARATOR . $phtmlStranica . '.css';
+        if(file_exists($cssDatoteka)){
+            $css=str_replace('\\','/',$phtmlStranica) . '.css';
+        }
+        
+        
         $viewDatoteka = BP_APP . 'view' .
         DIRECTORY_SEPARATOR . $phtmlStranica . '.phtml';
         ob_start();

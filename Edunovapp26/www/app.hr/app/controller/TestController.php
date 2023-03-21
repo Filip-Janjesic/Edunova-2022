@@ -17,4 +17,20 @@ class TestController
         
     }
 
+    public function dodajpolaznike()
+    {
+        for($i=0;$i<300;$i++){
+            Polaznik::create([
+                'ime'=>'Polaznik ' . $i,
+                'prezime'=>'Prezime',
+                'oib'=>'',
+                'email'=>'',
+                'brojugovora'=>''
+            ]);
+            echo $i . '<br>';
+        }
+
+        
+    }
+
 }

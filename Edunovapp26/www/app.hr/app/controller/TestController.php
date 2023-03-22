@@ -17,6 +17,14 @@ class TestController
         
     }
 
+    public function zbroj()
+    {
+
+        
+        echo ((0.1 + 0.2) === 0.3) ? 'DA' : 'NE'; 
+        
+    }
+
     public function dodajpolaznike()
     {
         for($i=0;$i<300;$i++){

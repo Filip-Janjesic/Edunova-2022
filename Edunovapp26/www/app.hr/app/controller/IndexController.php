@@ -23,7 +23,7 @@ class IndexController extends Controller
         }
 
      $this->view->render('prijava',[
-        'poruka'=>'',
+        'poruka'=>isset($_GET['poruka']) ? $_GET['poruka'] : '',
         'email'=>''
      ]);
         
@@ -34,6 +34,12 @@ class IndexController extends Controller
         unset($_SESSION['auth']);
         session_destroy();
         header('location:' . App::config('url'));
+        
+    }
+
+    public function jsosnove()
+    {
+        $this->view->render('jsosnove');
         
     }
 

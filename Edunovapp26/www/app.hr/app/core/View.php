@@ -21,6 +21,13 @@ class View
         if(file_exists($cssDatoteka)){
             $css=str_replace('\\','/',$phtmlStranica) . '.css';
         }
+
+        $jsDatoteka = BP . 'public' .
+        DIRECTORY_SEPARATOR . 'js' .
+        DIRECTORY_SEPARATOR . $phtmlStranica . '.js';
+        if(file_exists($jsDatoteka)){
+            $js=str_replace('\\','/',$phtmlStranica) . '.js';
+        }
         
         
         $viewDatoteka = BP_APP . 'view' .
@@ -40,7 +47,7 @@ class View
 
     public function api($parametri){
         header('Content-Type: application/json; charset=utf-8');
-        echo json_encode($parametri);
+        echo json_encode($parametri,JSON_NUMERIC_CHECK);
     }
 
 

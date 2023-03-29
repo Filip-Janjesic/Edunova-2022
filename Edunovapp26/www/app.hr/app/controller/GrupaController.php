@@ -11,9 +11,12 @@ implements ViewSucelje
     private $e;
     private $poruke=[];
 
+
+
     public function __construct()
     {
         parent::__construct();
+       
    }
 
 
@@ -45,6 +48,7 @@ implements ViewSucelje
 
     public function novi()
     {
+        
        $smjerSifra = Smjer::prviSmjer();
        if($smjerSifra==0){
         header('location: ' . App::config('url') . 'smjer?p=1');
@@ -86,6 +90,18 @@ implements ViewSucelje
 
     public function promjena($sifra='')
     {
+
+        parent::setCSSdependency([
+            '<link rel="stylesheet" href="' . App::config('url') . 'public/css/dependency/jquery-ui.css">'
+        ]);
+        parent::setJSdependency([
+            '<script src="' . App::config('url') . 'public/js/dependency/jquery-ui.js"></script>',
+            '<script>
+                let url=\'' . App::config('url') . '\';
+                let grupasifra=' . $sifra . ';
+            </script>'
+        ]);
+
         if($_SERVER['REQUEST_METHOD']==='GET'){
             $this->promjena_GET($sifra);
             return;
@@ -139,7 +155,7 @@ implements ViewSucelje
        ]); 
     }
 
-
+   
 
 
     public function brisanje($sifra=0){
@@ -179,5 +195,35 @@ implements ViewSucelje
         $e->datumpocetka='';
         $e->maksimalnopolaznika=20;
         return $e;
+    }
+
+    public function dodajpolaznik()
+    {
+        //prvo se trebala pozabaciti postoji li u $_GET
+        // traženi parametri
+        $res = new stdClass();
+        if(!Grupa::postojiPolaznikGrupa($_GET['grupa'],
+                    $_GET['polaznik'])){
+            Grupa::dodajPolaznikGrupa($_GET['grupa'],
+                    $_GET['polaznik']);
+            $res->error=false;
+            $res->description='Uspješno dodano';
+                    }else{
+                        $res->error=true;
+                        $res->description='Polaznik već postoji na grupi';
+                    }
+
+                    header('Content-Type: application/json; charset=utf-8');
+                    echo json_encode($res,JSON_NUMERIC_CHECK);
+    }
+
+    public function obrisipolaznik()
+    {
+        //prvo se trebala pozabaciti postoji li u $_GET
+        // traženi parametri
+
+        Grupa::obrisiPolaznikGrupa($_GET['grupa'],
+                    $_GET['polaznik']);
+               
     }
 }

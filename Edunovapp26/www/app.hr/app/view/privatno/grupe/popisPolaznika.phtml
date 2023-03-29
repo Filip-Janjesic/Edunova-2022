@@ -1,5 +1,8 @@
 <div class="popispolaznika">
 <input type="text" id="uvjet" placeholder="Traži polaznika">    
+<div style="min-height: 20px;">
+<div style="font-size: 0.6rem;" id="poruka"></div>
+</div>
 <table>
         <thead>
             <tr>
@@ -7,14 +10,14 @@
                 <th>Akcija</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody id="podaci">
             <?php foreach($e->polaznici as $p): ?>
             <tr>
                 <td>
                     <?=$p->imeprezime?>
                 </td>
                 <td>
-                    <a href="#" >
+                    <a href="#" class="odabraniPolaznik" id="p_<?=$p->sifra?>">
                     <i class="fi-trash"></i>
                     </a>
                 </td>

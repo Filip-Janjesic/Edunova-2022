@@ -223,4 +223,9 @@ implements ViewSucelje
     {
 
     }
+
+
+    public function ajaxSearch($uvjet){
+        $this->view->api(Polaznik::read($uvjet));
+    }
 }

@@ -18,6 +18,18 @@
             <tr>
                 <td>
                         <?=$red->naziv?>
+                        <div title="Klik za kopiranje u međuspremnik" class="callout polaznici"
+                        style="cursor: pointer;">
+                <?php 
+                $s='';
+                foreach($red->polaznici as $p){
+                    $s .= $p->ime . ' ' . $p->prezime . ',';
+                }
+                if($s!==''){
+                    echo substr($s,0,strlen($s)-1);
+                }
+                ?>
+            </div>
                     </td>
                 <td><?=$red->smjer?></td>
                 <td><?=$red->predavac?></td>
@@ -38,3 +50,4 @@
         <?php endforeach;?>
     </tbody>
 </table>
+

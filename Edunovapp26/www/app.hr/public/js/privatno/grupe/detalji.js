@@ -89,3 +89,29 @@ definirajBrisanje();
 $('#poruka').fadeOut();
 
 $('#uvjet').focus();
+
+
+
+//////// traž smjer
+$( '#uvjetsmjer' ).autocomplete({
+    source: function(req,res){
+       $.ajax({
+           url: url + 'smjer/ajaxSearch/' + req.term,
+           success:function(odgovor){
+            res(odgovor);
+            //console.log(odgovor);
+        }
+       }); 
+    },
+    minLength: 2,
+    select:function(dogadaj,ui){
+        $('#smjer').val(ui.item.sifra);
+
+        $('#smjerNaziv').html(ui.item.naziv);
+        
+    }
+}).autocomplete( 'instance' )._renderItem = function( ul, item ) {
+    return $( '<li>' )
+      .append( '<div> ' + item.naziv + '<div>')
+      .appendTo( ul );
+  };

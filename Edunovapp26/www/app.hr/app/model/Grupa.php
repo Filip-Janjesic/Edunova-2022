@@ -33,6 +33,27 @@ class Grupa
         
         ');
         $izraz->execute();
+        $rez = $izraz->fetchAll(); 
+        foreach($rez as $r){
+            $r->polaznici=Grupa::polazniciNaGrupi($r->sifra);
+        }
+        return $rez;
+    }
+
+    public static function polazniciNaGrupi($sifra)
+    {
+        $veza = DB::getInstance();
+        $izraz = $veza->prepare('
+        
+           select a.sifra, b.ime, b.prezime, concat(b.ime, \' \',b.prezime) as imeprezime, b.email
+           from polaznik a inner join osoba b
+           on a.osoba=b.sifra inner join clan c
+           on c.polaznik=a.sifra where c.grupa=:sifra
+        
+        ');
+        $izraz->execute([
+            'sifra'=>$sifra
+        ]);
         return $izraz->fetchAll();
     }
 
@@ -87,6 +108,8 @@ class Grupa
 
     public static function update($parametri)
     {
+        Log::info($parametri);
+        unset($parametri['polaznici']);
         $veza = DB::getInstance();
         $izraz = $veza->prepare('
         

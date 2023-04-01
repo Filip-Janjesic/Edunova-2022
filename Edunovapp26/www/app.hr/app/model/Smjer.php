@@ -4,8 +4,9 @@ class Smjer
 {
     // CRUD operacije
 
-    public static function read()
+    public static function read($uvjet='')
     {
+        $uvjet='%' . $uvjet . '%';
         $veza = DB::getInstance();
         $izraz = $veza->prepare('
         
@@ -18,6 +19,7 @@ class Smjer
                 count(b.sifra) as grupa
         from smjer a 
         left join grupa b on a.sifra=b.smjer
+        where a.naziv like :uvjet
         group by 	a.sifra, 
                     a.naziv,
                     a.cijena,
@@ -27,7 +29,7 @@ class Smjer
         order by a.naziv asc;
         
         ');
-        $izraz->execute();
+        $izraz->execute(['uvjet'=>$uvjet]);
         return $izraz->fetchAll();
     }
 

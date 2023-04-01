@@ -1,18 +1,31 @@
 
-    <?php echo App::inputText('naziv',$e->naziv); ?>
+<label 
+        <?php if(isset($poruke['naziv'])): ?>
+            class="is-invalid-label greska" 
+        <?php endif; ?>
+        for="naziv">Naziv</label>
+        <input 
+        <?php if(isset($poruke['naziv'])): ?>
+            class="is-invalid-input"
+        <?php endif; ?>
+         type="text" id="naziv" name="naziv"
+        value="<?=$e->naziv?>">
 
-    <label for="smjer">Smjer</label>
-    <select name="smjer" id="smjer">
-        <?php foreach($smjerovi as $smjer): ?>
-            <option 
-            <?php if($smjer->sifra==$e->smjer){
-                echo ' selected="selected" ';
-            } ?>
-            value="<?=$smjer->sifra?>">
-                <?=$smjer->naziv?>
-            </option>
-        <?php endforeach;?>
-    </select>
+        <?php if(isset($poruke['naziv'])): ?>
+            <span class="form-error is-visible">
+            <?=$poruke['naziv'] ?>
+        </span>
+        <?php endif; ?>
+        <div class="callout">
+            <label for="smjer">Smjer</label>
+            <input type="text" id="uvjetsmjer" placeholder="Traži smjer">  
+            <input type="hidden" name="smjer" id="smjer" value="<?=$smjer->sifra?>">
+            <div id="smjerNaziv">
+            <?=$smjer->naziv?>
+            </div>  
+        </div>
+   
+
 
 
     <label for="predavac">Predavač</label>

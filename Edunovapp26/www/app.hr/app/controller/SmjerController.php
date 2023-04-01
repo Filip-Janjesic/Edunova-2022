@@ -287,4 +287,8 @@ implements ViewSucelje
         // Dovući nazive grupa na smjeru za primljenu šifru odvojeno zarezima. Na kraju nema zareza
        echo 'WP23, KL12';
     }
+
+    public function ajaxSearch($uvjet){
+        $this->view->api(Smjer::read($uvjet));
+    }
 }

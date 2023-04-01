@@ -76,6 +76,7 @@ implements ViewSucelje
     public function odustani($sifra='')
     {
         $e=Grupa::readOne($sifra);
+        
 
         if($e->naziv=='' && 
         $e->predavac==null && 
@@ -109,8 +110,9 @@ implements ViewSucelje
 
 
         $this->e = (object)$_POST;
-
+        $this->e->polaznici=Grupa::polazniciNaGrupi($sifra);
         try {
+            $odabraniSmjer = Smjer::readOne($this->e->smjer);
             $this->e->sifra=$sifra;
             $this->kontrola();
             $this->pripremiZaBazu();
@@ -120,6 +122,8 @@ implements ViewSucelje
             $this->view->render($this->viewPutanja .
             'detalji',[
                 'poruke'=>$this->poruke,
+                'smjer'=>$odabraniSmjer,
+                'predavaci'=>$this->definirajPredavace(),
                 'e'=>$this->e
             ]);
            }        
@@ -128,21 +132,17 @@ implements ViewSucelje
 
     private function kontrola()
     {
-
+        $s = $this->e->naziv;
+        if(strlen(trim($s))===0){
+            $this->poruke['naziv']='Naziv obavezno';
+            throw new Exception();
+        }
     }
 
     private function promjena_GET($sifra)
     {
         $this->e = Grupa::readOne($sifra);
-       $predavaci = [];
-       $p = new stdClass();
-       $p->sifra=0;
-       $p->ime='Nije';
-       $p->prezime='Odabrano';
-       $predavaci[]=$p;
-       foreach(Predavac::read() as $predavac){
-        $predavaci[]=$predavac;
-       }
+      
 
        if($this->e->datumpocetka!=null){
         $this->e->datumpocetka = date('Y-m-d',strtotime($this->e->datumpocetka));
@@ -150,12 +150,24 @@ implements ViewSucelje
        $this->view->render($this->viewPutanja . 
        'detalji',[
            'e'=>$this->e,
-           'smjerovi'=>Smjer::read(),
-           'predavaci'=>$predavaci
+           'smjer'=>Smjer::readOne($this->e->smjer),
+           'predavaci'=>$this->definirajPredavace()
        ]); 
     }
 
-   
+   private function definirajPredavace()
+   {
+    $predavaci = [];
+    $p = new stdClass();
+    $p->sifra=0;
+    $p->ime='Nije';
+    $p->prezime='Odabrano';
+    $predavaci[]=$p;
+    foreach(Predavac::read() as $predavac){
+     $predavaci[]=$predavac;
+    }
+    return $predavaci;
+   }
 
 
     public function brisanje($sifra=0){

@@ -12,9 +12,22 @@ implements ViewSucelje
 
     public function index()
     {        
+
+        $predavaci= Predavac::read();
+
+        foreach($predavaci as $p){
+            if(file_exists(BP . 'public' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR
+            . 'predavaci' . DIRECTORY_SEPARATOR . $p->sifra . '.png' )){
+                $p->slika= App::config('url') . 'public/img/predavaci/' . $p->sifra . '.png';
+            }else{
+                $p->slika= App::config('url') . 'public/img/nepoznato.png';
+            }
+        }
+
+
      $this->view->render($this->viewPutanja . 
             'index',[
-                'podaci'=>Predavac::read()
+                'podaci'=>$predavaci
             ]);   
     }
     public function novi()
@@ -55,6 +68,8 @@ implements ViewSucelje
 
             $this->e = Predavac::readOne($sifra);
 
+            $this->definirajSliku();
+
             if($this->e==null){
                 header('location: ' . App::config('url') . 'index/odjava');
                 return;
@@ -70,13 +85,17 @@ implements ViewSucelje
             return;
         }
 
+       
+        
 
         $this->pripremiZaView();
            
            try {
             $this->e->sifra=$sifra;
+            $this->definirajSliku();
             $this->kontrola();
             $this->pripremiZaBazu();
+            $this->spremiSliku($sifra);
             Predavac::update((array)$this->e);
             header('location:' . App::config('url') . 'predavac');
            } catch (\Exception $th) {
@@ -89,6 +108,16 @@ implements ViewSucelje
             ]);
            }
 
+    }
+
+    private function definirajSliku()
+    {
+        if(file_exists(BP . 'public' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR
+        . 'predavaci' . DIRECTORY_SEPARATOR . $this->e->sifra . '.png' )){
+            $this->e->slika= App::config('url') . 'public/img/predavaci/' . $this->e->sifra . '.png';
+        }else{
+            $this->e->slika= App::config('url') . 'public/img/nepoznato.png';
+        }
     }
 
     public function kontrola()
@@ -196,6 +225,18 @@ implements ViewSucelje
     }
     public function pripremiZaBazu()
     {
+
+    }
+
+    public function spremiSliku($sifra)
+    {
+
+        if(isset($_FILES['slika'])){
+            move_uploaded_file($_FILES['slika']['tmp_name'], 
+            BP . 'public' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR
+             . 'predavaci' . DIRECTORY_SEPARATOR . $sifra . '.png');
+        }
+
 
     }
 }

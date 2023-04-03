@@ -32,3 +32,44 @@ var final_str = output.replace(reg, function(str) {return str.bold().fontcolor("
   };
 
 $('#uvjet').focus();
+
+
+
+
+
+// Data retrieved from https://netmarketshare.com
+Highcharts.chart('container', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: 'Broj polaznika po grupama',
+        align: 'left'
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.y}</b>'
+    },
+    accessibility: {
+        point: {
+            valueSuffix: '%'
+        }
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.y}'
+            }
+        }
+    },
+    series: [{
+        name: 'Polaznika',
+        colorByPoint: true,
+        data: podaci
+    }]
+});

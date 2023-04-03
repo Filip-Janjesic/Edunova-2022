@@ -11,8 +11,8 @@ implements ViewSucelje
     private $poruka='';
 
     public function index()
-    {        
-
+    {      
+        
         if(isset($_GET['uvjet'])){
             $uvjet = trim($_GET['uvjet']);
         }else{
@@ -33,10 +33,30 @@ implements ViewSucelje
         $zadnja = (int)ceil($up/App::config('brps'));
 
 
+        parent::setCSSdependency([
+            '<link rel="stylesheet" href="' . App::config('url') . 'public/css/dependency/cropper.css">'
+        ]);
+        parent::setJSdependency([
+            '<script src="' . App::config('url') . 'public/js/dependency/cropper.js"></script>',
+            '<script>
+                let url=\'' . App::config('url') . '\';
+            </script>'
+        ]);
+
+        $polaznici = Polaznik::read($uvjet,$stranica);
+        foreach($polaznici as $p){
+            if(file_exists(BP . 'public' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR
+            . 'polaznici' . DIRECTORY_SEPARATOR . $p->sifra . '.png' )){
+                $p->slika= App::config('url') . 'public/img/polaznici/' . $p->sifra . '.png';
+            }else{
+                $p->slika= App::config('url') . 'public/img/nepoznato.png';
+            }
+        }
+
 
      $this->view->render($this->viewPutanja . 
             'index',[
-                'podaci'=>Polaznik::read($uvjet,$stranica),
+                'podaci'=>$polaznici,
                 'uvjet'=>$uvjet,
                 'stranica'=>$stranica,
                 'zadnja'=>$zadnja
@@ -226,6 +246,42 @@ implements ViewSucelje
 
 
     public function ajaxSearch($uvjet){
-        $this->view->api(Polaznik::read($uvjet));
+
+        $polaznici=Polaznik::read($uvjet);
+
+
+        foreach($polaznici as $p){
+            if(file_exists(BP . 'public' . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR
+            . 'polaznici' . DIRECTORY_SEPARATOR . $p->sifra . '.png' )){
+                $p->slika= App::config('url') . 'public/img/polaznici/' . $p->sifra . '.png';
+            }else{
+                $p->slika= App::config('url') . 'public/img/nepoznato.png';
+            }
+        }
+
+
+        $this->view->api($polaznici);
     }
+
+    public function spremisliku(){
+
+        $slika = $_POST['slika'];
+        $slika=str_replace('data:image/png;base64,','',$slika);
+        $slika=str_replace(' ','+',$slika);
+        $data=base64_decode($slika);
+
+        file_put_contents(BP . 'public' . DIRECTORY_SEPARATOR
+        . 'img' . DIRECTORY_SEPARATOR . 
+        'polaznici' . DIRECTORY_SEPARATOR 
+        . $_POST['id'] . '.png', $data);
+
+
+        $res = new stdClass();
+        $res->error=false;
+        $res->description='Uspješno spremljeno';
+        header('Content-Type: application/json; charset=utf-8');
+        echo json_encode($res);
+    }
+
+
 }

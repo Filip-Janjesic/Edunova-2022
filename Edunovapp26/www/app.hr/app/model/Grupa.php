@@ -189,4 +189,23 @@ class Grupa
             'polaznik'=>$polaznik
         ]);
     }
+
+
+    public static function brojPolaznikaPoGrupama()
+    {
+        $veza = DB::getInstance();
+        $izraz = $veza->prepare('
+        
+        select a.naziv as name, count(b.polaznik) as y
+        from grupa a inner join
+        clan b on a.sifra = b.grupa 
+        group by a.naziv order by 2 desc;
+        
+        
+        ');
+        $izraz->execute();
+        $rez = $izraz->fetchAll(); 
+        
+        return $rez;
+    }
 }

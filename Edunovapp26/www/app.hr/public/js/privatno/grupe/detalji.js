@@ -16,7 +16,7 @@ $( '#uvjet' ).autocomplete({
     }
 }).autocomplete( 'instance' )._renderItem = function( ul, item ) {
     return $( '<li>' )
-      .append( '<div> <img src="https://picsum.photos/30/30" />' + item.ime + ' ' + item.prezime + '<div>')
+      .append( '<div> <img style="height: 30px; width: 30px;" src="' + item.slika + '" />' + item.ime + ' ' + item.prezime + '<div>')
       .appendTo( ul );
   };
 

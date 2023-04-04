@@ -41,4 +41,24 @@ class TestController
         
     }
 
+    public function faker()
+    {
+        // use the factory to create a Faker\Generator instance
+        $faker = Faker\Factory::create('hr_HR');
+        // generate data by calling methods
+
+        for($i=20;$i<3000;$i++){
+            Polaznik::create([
+                'sifra'=>$i,
+                'ime'=>$faker->firstname(),
+                'oib'=>'',
+                'prezime'=>$faker->lastname(),
+                'email'=>$faker->unique()->email,
+                'brojugovora'=>$faker->randomDigit
+            ]);
+        }
+
+        
+    }
+
 }

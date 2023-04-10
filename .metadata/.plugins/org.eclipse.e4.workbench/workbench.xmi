@@ -142,7 +142,7 @@
     <sharedElements xsi:type="advanced:Area" xmi:id="_3n3z-G9WEe23mNtvw56JvQ" elementId="org.eclipse.ui.editorss" selectedElement="_3n3z-W9WEe23mNtvw56JvQ">
       <children xsi:type="basic:PartStack" xmi:id="_3n3z-W9WEe23mNtvw56JvQ" elementId="PartStack@126606bc" selectedElement="_lgdh0NGSEe2AraJaOatMSA">
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_do690NGSEe2AraJaOatMSA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="&lt;localhost> Script-3" iconURI="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_script.png" closeable="true">
+        <children xsi:type="basic:Part" xmi:id="_do690NGSEe2AraJaOatMSA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="&lt;localhost> Script-3" iconURI="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/script.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;Script-3.sql&quot; partName=&quot;&amp;lt;localhost&amp;gt; Script-3&quot; title=&quot;&amp;lt;localhost&amp;gt; Script-3&quot; tooltip=&quot;Script: /General/Scripts/Script-3.sql&amp;#x0A;Connection: localhost&amp;#x0A;Type: MariaDB&amp;#x0A;URL: jdbc:mariadb://localhost:3306/&amp;#x0A;Database: zavrsnirad&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/General/Scripts/Script-3.sql&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;90&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
@@ -616,6 +616,27 @@
     <bindings xmi:id="_3n4ZfG9WEe23mNtvw56JvQ" keySequence="F5" command="_3n5C-G9WEe23mNtvw56JvQ">
       <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
     </bindings>
+    <bindings xmi:id="_6p6lUNfIEe2L3oC5vHHMRA" keySequence="CTRL+CR" command="_3n5DXm9WEe23mNtvw56JvQ">
+      <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+    </bindings>
+    <bindings xmi:id="_6p-2wNfIEe2L3oC5vHHMRA" keySequence="ALT+SHIFT+ARROW_UP" command="_6piK29fIEe2L3oC5vHHMRA">
+      <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+    </bindings>
+    <bindings xmi:id="_6p_d0NfIEe2L3oC5vHHMRA" keySequence="ALT+SHIFT+ARROW_DOWN" command="_6pix5tfIEe2L3oC5vHHMRA">
+      <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+    </bindings>
+    <bindings xmi:id="_6qAE4NfIEe2L3oC5vHHMRA" keySequence="ALT+1" command="_6pix5NfIEe2L3oC5vHHMRA">
+      <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+    </bindings>
+    <bindings xmi:id="_6qAE4dfIEe2L3oC5vHHMRA" keySequence="ALT+2" command="_6piK2NfIEe2L3oC5vHHMRA">
+      <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+    </bindings>
+    <bindings xmi:id="_6qAE4tfIEe2L3oC5vHHMRA" keySequence="ALT+3" command="_6piK2tfIEe2L3oC5vHHMRA">
+      <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+    </bindings>
+    <bindings xmi:id="_6qAE49fIEe2L3oC5vHHMRA" keySequence="ALT+4" command="_6pix4dfIEe2L3oC5vHHMRA">
+      <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+    </bindings>
   </bindingTables>
   <bindingTables xmi:id="_3n4ZfW9WEe23mNtvw56JvQ" elementId="org.eclipse.ui.textEditorScope" bindingContext="_3n4aC29WEe23mNtvw56JvQ">
     <bindings xmi:id="_3n4Zfm9WEe23mNtvw56JvQ" keySequence="ALT+CTRL+ARROW_UP" command="_3n5DPm9WEe23mNtvw56JvQ">
@@ -809,6 +830,12 @@
     <bindings xmi:id="_3n4ZvW9WEe23mNtvw56JvQ" keySequence="TAB" command="_3n5Cm29WEe23mNtvw56JvQ">
       <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
     </bindings>
+    <bindings xmi:id="_6p7MYdfIEe2L3oC5vHHMRA" keySequence="ALT+CTRL+C" command="_6pix49fIEe2L3oC5vHHMRA">
+      <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+    </bindings>
+    <bindings xmi:id="_6p7zcNfIEe2L3oC5vHHMRA" keySequence="ALT+CTRL+R" command="_6piK0tfIEe2L3oC5vHHMRA">
+      <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+    </bindings>
   </bindingTables>
   <bindingTables xmi:id="_3n4Zvm9WEe23mNtvw56JvQ" elementId="org.jkiss.dbeaver.ui.editors.sql" bindingContext="_3n4aDW9WEe23mNtvw56JvQ">
     <bindings xmi:id="_3n4Zv29WEe23mNtvw56JvQ" keySequence="CTRL+SHIFT+ARROW_UP" command="_3n5DYW9WEe23mNtvw56JvQ"/>
@@ -832,6 +859,7 @@
       <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
     </bindings>
     <bindings xmi:id="_3n4ZyW9WEe23mNtvw56JvQ" keySequence="CTRL+SHIFT+SPACE" command="_3n5DGG9WEe23mNtvw56JvQ"/>
+    <bindings xmi:id="_6p7MYNfIEe2L3oC5vHHMRA" keySequence="CTRL+1" command="_3n5Cbm9WEe23mNtvw56JvQ"/>
   </bindingTables>
   <bindingTables xmi:id="_3n4Zym9WEe23mNtvw56JvQ" elementId="org.jkiss.dbeaver.ui.context.resultset.focused" bindingContext="_3n4aD29WEe23mNtvw56JvQ">
     <bindings xmi:id="_3n4Zy29WEe23mNtvw56JvQ" keySequence="ALT+CTRL+INSERT" command="_3n5DX29WEe23mNtvw56JvQ">
@@ -964,6 +992,9 @@
       <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
     </bindings>
     <bindings xmi:id="_3n4Z-G9WEe23mNtvw56JvQ" keySequence="CTRL+SHIFT+\" command="_3n5C029WEe23mNtvw56JvQ">
+      <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+    </bindings>
+    <bindings xmi:id="_6p6lUdfIEe2L3oC5vHHMRA" keySequence="CTRL+SHIFT+P" command="_6pix4NfIEe2L3oC5vHHMRA">
       <tags>schemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
     </bindings>
   </bindingTables>
@@ -1758,6 +1789,25 @@
   <commands xmi:id="_3n5Dg29WEe23mNtvw56JvQ" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Text Editor Bookmark Ruler Action" category="_3n5Dp29WEe23mNtvw56JvQ"/>
   <commands xmi:id="_3n5DhG9WEe23mNtvw56JvQ" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Text Editor Ruler Single-Click" category="_3n5Dp29WEe23mNtvw56JvQ"/>
   <commands xmi:id="_-LaXMXVREe2_TcMB3FqZWA" elementId="org.jkiss.dbeaver.ui.editors.sql.disableSQLSyntaxParser" commandName="Disable SQL syntax parser" description="Disable autocomplete, folding, word occurrences highlighting&#xA;(Automatically applied for large script files)" category="_3n5DoW9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6piK0NfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.core.resultset.grid.moveColumnLeft" commandName="Move column left" description="Swap selected column with another one to the left" category="_3n5DpW9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6piK0dfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.core.resultset.grid.hideColumns" commandName="Hide columns" description="Hide selected columns" category="_3n5DpW9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6piK0tfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.core.resultset.grid.selectRow" commandName="Select row(s)" description="Select row(s) for the selected cell(s)" category="_3n5DpW9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6piK09fIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.core.resultset.grid.showColumns" commandName="Show columns" description="Show hidden columns" category="_3n5DpW9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6piK1NfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.core.util.resetSettings" commandName="Reset UI Settings..." description="Reset UI settings and restart" category="_3n5DnG9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6piK1dfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.ui.editors.sql.ExpandAllFoldings" commandName="Expand All Foldings" category="_3n5DoW9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6piK1tfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.ui.editors.sql.CollapseAllFoldings" commandName="Collapse All Foldings" category="_3n5DoW9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6piK19fIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.core.resultset.grid.moveColumnRight" commandName="Move column right" description="Swap selected column with another one to the right" category="_3n5DpW9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6piK2NfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.erd.focus.palette" commandName="Focus on palette" description="Changes focus to palette" category="_3n5DqG9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6piK2dfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.core.util.clearHistory" commandName="Clear History..." description="Clear logs, query history and restart" category="_3n5DnG9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6piK2tfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.erd.focus.outline" commandName="Focus on outline" description="Changes focus to outline" category="_3n5DqG9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6piK29fIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.entity.propsTab.prevPage" commandName="Previous Entity Properties tab" description="Switch to the previous entity properties tab page" category="_6pg8sdfIEe2L3oC5vHHMRA"/>
+  <commands xmi:id="_6pix4NfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.ui.editors.sql.toggle.pinned.tab" commandName="Pin/unpin" description="Pin/unpin results tab" category="_3n5DoW9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6pix4dfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.erd.focus.parameter" commandName="Focus on parameters" description="Changes focus to parameters" category="_3n5DqG9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6pix4tfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.ui.editors.sql.FoldingsEnabled" commandName="Foldings Enabled" category="_3n5DoW9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6pix49fIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.core.resultset.grid.selectColumn" commandName="Select column(s)" description="Select columns for the selected cell(s)" category="_3n5DpW9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6pix5NfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.erd.focus.diagram" commandName="Focus on diagram" description="Changes focus to diagram" category="_3n5DqG9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6pix5dfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.core.resultset.grid.showColumnContextMenu" commandName="Show context menu for column" description="Show context menu for column according to the focus cell" category="_3n5DpW9WEe23mNtvw56JvQ"/>
+  <commands xmi:id="_6pix5tfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.entity.propsTab.nextPage" commandName="Next Entity Properties tab" description="Switch to the next entity properties tab page" category="_6pg8sdfIEe2L3oC5vHHMRA"/>
   <addons xmi:id="_3n5DhW9WEe23mNtvw56JvQ" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.jkiss.dbeaver.ui.app.standalone" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_3n5Dhm9WEe23mNtvw56JvQ" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.jkiss.dbeaver.ui.app.standalone" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_3n5Dh29WEe23mNtvw56JvQ" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.jkiss.dbeaver.ui.app.standalone" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -1795,4 +1845,5 @@
   <categories xmi:id="_3n5Dp29WEe23mNtvw56JvQ" elementId="org.eclipse.core.commands.categories.autogenerated" name="Uncategorized" description="Commands that were either auto-generated or have no category"/>
   <categories xmi:id="_3n5DqG9WEe23mNtvw56JvQ" elementId="org.eclipse.gef3.category.view" name="View" description="View"/>
   <categories xmi:id="_3n5DqW9WEe23mNtvw56JvQ" elementId="org.eclipse.ui.category.help" name="Help"/>
+  <categories xmi:id="_6pg8sdfIEe2L3oC5vHHMRA" elementId="org.jkiss.dbeaver.entity.propsTab" name="Entity Properties" description="Entity properties tab"/>
 </application:Application>

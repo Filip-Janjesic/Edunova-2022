@@ -1,251 +1,81 @@
-2023-04-02 21:43:26.688 - DBeaver 22.3.0.202212041619 is starting
-2023-04-02 21:43:26.688 - OS: Windows 10 10.0 (amd64)
-2023-04-02 21:43:26.688 - Java version: 11.0.12 by Eclipse Foundation (64bit)
-2023-04-02 21:43:26.688 - Install path: 'C:\Users\Filip\AppData\Local\DBeaver'
-2023-04-02 21:43:26.688 - Instance path: 'file:/C:/Users/Filip/Documents/Edunova-2022/'
-2023-04-02 21:43:26.688 - Memory available 198Mb/1024Mb
-2023-04-02 21:43:26.688 - Create display
-2023-04-02 21:43:26.843 - Initializing DBeaver 22.3.0
-2023-04-02 21:43:26.843 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 22.3.0.202212041619
-2023-04-02 21:43:26.843 - Initialize desktop platform...
-2023-04-02 21:43:27.014 - BounceCastle bundle found. Use JCE provider BC
+2023-04-10 19:55:43.690 - DBeaver 23.0.2.202304091457 is starting
+2023-04-10 19:55:43.692 - OS: Windows 10 10.0 (amd64)
+2023-04-10 19:55:43.692 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2023-04-10 19:55:43.692 - Install path: 'C:\Users\Filip\AppData\Local\DBeaver'
+2023-04-10 19:55:43.692 - Instance path: 'file:/C:/Users/Filip/Documents/Edunova-2022/'
+2023-04-10 19:55:43.693 - Memory available 128Mb/1024Mb
+2023-04-10 19:55:43.703 - Create display
+2023-04-10 19:55:43.881 - Initializing DBeaver 23.0.2
+2023-04-10 19:55:43.882 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 23.0.2.202304091457
+2023-04-10 19:55:43.882 - Initialize desktop platform...
+2023-04-10 19:55:44.015 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.9.500.v20220817-1539]
-> Start Core Resource Management [org.eclipse.core.resources 3.18.0.v20220828-0546]
-> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.95.202212041619]
-> Start Team Support Core [org.eclipse.team.core 3.9.500.v20220817-1539]
-2023-04-02 21:43:27.317 - Initialize base platform...
+> Start Core Resource Management [org.eclipse.core.resources 3.18.100.v20221025-2047]
+> Start Team Support Core [org.eclipse.team.core 3.9.600.v20220902-2219]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.103.202304091457]
+2023-04-10 19:55:44.250 - Initialize base platform...
 > Start Expression Language [org.eclipse.core.expressions 3.8.200.v20220613-1047]
-2023-04-02 21:43:27.332 - Platform initialized (489ms)
-> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.95.202212041619]
-2023-04-02 21:43:27.342 - Starting RMI server at 22931
-2023-04-02 21:43:27.491 - Run workbench
-> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.16.600.v20220607-1204]
-> Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.300.v20220613-1047]
-> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.5.0.v20210115-1333]
-> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.3.500.v20220717-1456]
+2023-04-10 19:55:44.273 - Platform initialized (391ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.103.202304091457]
+2023-04-10 19:55:44.285 - Starting RMI server at 24901
+2023-04-10 19:55:44.364 - Run workbench
+> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.118.202304091457]
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.16.700.v20221024-2137]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.400.v20220915-1347]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.5.100.v20221024-2137]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.3.600.v20221024-2137]
 > Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.17.0.v20220817-1334]
-> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.13.100.v20220310-1056]
-> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.4.400.v20211102-0453]
-> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.15.600.v20220715-1400]
-> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.13.100.v20210722-1426]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.13.200.v20221024-2137]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.4.500.v20221028-0801]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.15.700.v20221024-2137]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.13.200.v20221024-2137]
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.17.200.v20220613-1008]
-> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.14.600.v20220621-1327]
-> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.110.202212041619]
-2023-04-02 21:43:29.108 - Configure workbench window
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.14.700.v20221102-0748]
+> Start Eclipse SDK Themes [org.eclipse.ui.themes 1.2.2100.v20221024-2137]
+2023-04-10 19:55:45.779 - Configure workbench window
 > Start Help System Core [org.eclipse.help 3.9.100.v20210721-0601]
-2023-04-02 21:43:29.199 - Create actions
-2023-04-02 21:43:29.202 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2023-04-02 21:43:29.202 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2023-04-02 21:43:29.202 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2023-04-02 21:43:29.639 - Initialize workbench window
-2023-04-02 21:43:29.655 - Finish initialization
+2023-04-10 19:55:45.854 - Create actions
+2023-04-10 19:55:45.860 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2023-04-10 19:55:45.861 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2023-04-10 19:55:45.861 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2023-04-10 19:55:46.443 - Initialize workbench window
+2023-04-10 19:55:46.449 - Finish initialization
 > Start Default Text Editor [org.eclipse.ui.editors 3.14.400.v20220730-1844]
 > Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.16.600.v20220809-1658]
-> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.95.202212041619]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.103.202304091457]
 > Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.3.1000.v20220801-1135]
+> Start Java Native Access [com.sun.jna 5.12.1.v20221103-2317]
 > Start Internet Connection Management UI [org.eclipse.ui.net 1.4.100.v20220812-1406]
 > Start Internet Connection Management [org.eclipse.core.net 1.4.0.v20220813-1037]
-> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.132.202212041619]
-> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.101.202212041619]
-> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.85.202212041619]
-> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.95.202212041619]
-> Start Draw2d [org.eclipse.draw2dl 3.12.100.20221014131737]
-> Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20221014131737]
-> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.55.202212041619]
-> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.55.202212041619]
-2023-04-02 21:43:31.902 - Total database drivers: 101 (101)
-2023-04-02 21:43:32.068 - Connect with 'localhost' (mariaDB-184a5e31dc5-43427f82758bb6ab)
-> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.180.202212041619]
-2023-04-02 21:43:32.121 - Execution context opened (localhost; Main; 0)
-> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.119.202212041619]
-2023-04-02 21:43:32.304 - Execution context opened (localhost; Metadata; 1)
-2023-04-02 21:43:32.456 - Connected (mariaDB-184a5e31dc5-43427f82758bb6ab, MariaDB Connector/J [3.0.7])
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.140.202304091457]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.109.202304091457]
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.93.202304091457]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.103.202304091457]
+> Start Draw2d [org.eclipse.draw2dl 3.12.100.20230406122456]
+> Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20230406122456]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.63.202304091457]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.63.202304091457]
+2023-04-10 19:55:48.310 - Total database drivers: 102 (102)
+2023-04-10 19:55:48.523 - Connect with 'localhost' (mariaDB-184a5e31dc5-43427f82758bb6ab)
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.188.202304091457]
+2023-04-10 19:55:48.566 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.127.202304091457]
+2023-04-10 19:55:48.681 - Execution context opened (localhost; Metadata; 1)
+2023-04-10 19:55:48.771 - Connected (mariaDB-184a5e31dc5-43427f82758bb6ab, MariaDB Connector/J [3.0.7])
 > Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
-> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.87.202212041619]
-2023-04-02 21:43:34.435 - Open [https://dbeaver.io/product/version.xml]
-2023-04-02 22:00:52.467 - Downloading installation file to C:\Users\Filip\AppData\Local\Temp\dbeaver-ce-latest-x86_64-setup.exe18134844032473800983\dbeaver-ce-latest-x86_64-setup.exe
-2023-04-02 22:00:52.468 - Open [https://dbeaver.io/files/dbeaver-ce-latest-x86_64-setup.exe]
-> Start DBeaver Tasks View [org.jkiss.dbeaver.tasks.ui.view 1.0.44.202212041619]
-> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.73.202212041619]
-2023-04-02 22:09:24.324 - Direct database rename is not yet implemented in MySQL. You should use export/import functions for that.
-org.jkiss.dbeaver.DBException: Direct database rename is not yet implemented in MySQL. You should use export/import functions for that.
-	at org.jkiss.dbeaver.ext.mysql.edit.MySQLDatabaseManager.renameObject(MySQLDatabaseManager.java:100)
-	at org.jkiss.dbeaver.ext.mysql.edit.MySQLDatabaseManager.renameObject(MySQLDatabaseManager.java:1)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectRename.renameDatabaseObject(NavigatorHandlerObjectRename.java:116)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectRename.renameNode(NavigatorHandlerObjectRename.java:91)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectRename.execute(NavigatorHandlerObjectRename.java:61)
-	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.95.202304091457]
 > Start Core Compare Support [org.eclipse.compare.core 3.7.100.v20220812-1406]
-> Start Console [org.eclipse.ui.console 3.11.300.v20220811-1921]
+> Start Console [org.eclipse.ui.console 3.11.400.v20221012-0524]
 > Start Debug Core [org.eclipse.debug.core 3.20.0.v20220811-0741]
-Warning: NLS unused message: pref_page_database_resultsets_group_image in: org.jkiss.dbeaver.ui.editors.data.internal.DataEditorsResources
-2023-04-02 22:10:18.593 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 2)
-2023-04-02 22:10:21.345 - Delete empty SQL script '\General\Scripts\Script-3.sql'
-2023-04-02 22:10:21.392 - Execution context closed (localhost, 2)
-2023-04-02 22:10:31.046 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 3)
-2023-04-02 22:10:32.646 - Delete empty SQL script '\General\Scripts\Script-3.sql'
-2023-04-02 22:10:32.709 - Execution context closed (localhost, 3)
-2023-04-02 22:10:50.672 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 4)
+2023-04-10 20:08:12.658 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 2)
 [ WARN] (DBeaver: SQL script execution) Error: 1007-HY000: Can't create database 'zavrsnirad'; database exists
-2023-04-02 22:11:08.257 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1007] [HY000]: (conn=12) Can't create database 'zavrsnirad'; database exists
+2023-04-10 20:08:20.368 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1007] [HY000]: (conn=12) Can't create database 'zavrsnirad'; database exists
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:237)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLException: (conn=12) Can't create database 'zavrsnirad'; database exists
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 7 more
-[ WARN] (DBeaver: Read data [create database zavrsnirad]) Error: 1007-HY000: Can't create database 'zavrsnirad'; database exists
-2023-04-02 22:11:18.566 - SQL Error [1007] [HY000]: (conn=12) Can't create database 'zavrsnirad'; database exists
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1007] [HY000]: (conn=12) Can't create database 'zavrsnirad'; database exists
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:916)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3800)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5035)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLException: (conn=12) Can't create database 'zavrsnirad'; database exists
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-[ WARN] (DBeaver: SQL script execution) Error: 1007-HY000: Can't create database 'zavrsnirad'; database exists
-2023-04-02 22:11:20.154 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1007] [HY000]: (conn=12) Can't create database 'zavrsnirad'; database exists
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:237)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLException: (conn=12) Can't create database 'zavrsnirad'; database exists
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 7 more
-[ WARN] (DBeaver: SQL script execution) Error: 1007-HY000: Can't create database 'zavrsnirad'; database exists
-2023-04-02 22:11:22.896 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1007] [HY000]: (conn=12) Can't create database 'zavrsnirad'; database exists
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:237)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLException: (conn=12) Can't create database 'zavrsnirad'; database exists
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 7 more
-[ WARN] (DBeaver: SQL script execution) Error: 1007-HY000: Can't create database 'zavrsnirad'; database exists
-2023-04-02 22:11:25.369 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1007] [HY000]: (conn=12) Can't create database 'zavrsnirad'; database exists
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:237)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:238)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 Caused by: java.sql.SQLException: (conn=12) Can't create database 'zavrsnirad'; database exists
@@ -265,13 +95,13 @@ Caused by: java.sql.SQLException: (conn=12) Can't create database 'zavrsnirad'; 
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 7 more
 [ WARN] (DBeaver: SQL script execution) Error: 1050-42S01: Table 'orders' already exists
-2023-04-02 22:11:27.101 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1050] [42S01]: (conn=12) Table 'orders' already exists
+2023-04-10 20:08:22.530 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1050] [42S01]: (conn=12) Table 'orders' already exists
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:237)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:238)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 Caused by: java.sql.SQLSyntaxErrorException: (conn=12) Table 'orders' already exists
@@ -291,13 +121,13 @@ Caused by: java.sql.SQLSyntaxErrorException: (conn=12) Table 'orders' already ex
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 7 more
 [ WARN] (DBeaver: SQL script execution) Error: 1050-42S01: Table 'orders_product' already exists
-2023-04-02 22:11:28.665 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1050] [42S01]: (conn=12) Table 'orders_product' already exists
+2023-04-10 20:08:23.746 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1050] [42S01]: (conn=12) Table 'orders_product' already exists
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:237)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:238)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 Caused by: java.sql.SQLSyntaxErrorException: (conn=12) Table 'orders_product' already exists
@@ -317,31 +147,6 @@ Caused by: java.sql.SQLSyntaxErrorException: (conn=12) Table 'orders_product' al
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 7 more
 [ WARN] (DBeaver: SQL script execution) Error: 1050-42S01: Table 'orders_status' already exists
-2023-04-02 22:11:29.485 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1050] [42S01]: (conn=12) Table 'orders_status' already exists
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:581)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:490)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:173)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:497)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:237)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=12) Table 'orders_status' already exists
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 7 more
 [ WARN] (DBeaver: SQL script execution) Error: 1062-23000: Duplicate entry '1' for key 'PRIMARY'
 [ WARN] (DBeaver: SQL script execution) Error: 1050-42S01: Table 'product' already exists
 [ WARN] (DBeaver: SQL script execution) Error: 1062-23000: Duplicate entry '6' for key 'PRIMARY'
@@ -357,89 +162,8 @@ Caused by: java.sql.SQLSyntaxErrorException: (conn=12) Table 'orders_status' alr
 [ WARN] (DBeaver: SQL script execution) Error: 1005-HY000: Can't create table `zavrsnirad`.`orders` (errno: 121 "Duplicate key on write or update")
 [ WARN] (DBeaver: SQL script execution) Error: 1005-HY000: Can't create table `zavrsnirad`.`orders_product` (errno: 121 "Duplicate key on write or update")
 [ WARN] (DBeaver: SQL script execution) Error: 1005-HY000: Can't create table `zavrsnirad`.`product` (errno: 121 "Duplicate key on write or update")
-2023-04-02 22:55:21.562 - System suspend detected! Reinitialize all remote connections.
-2023-04-02 23:20:40.468 - Execution context closed (localhost, 4)
-2023-04-02 23:20:40.623 - Event loop exception
-java.lang.NullPointerException
-	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceToolbarUtils.refreshSelectorToolbar(DataSourceToolbarUtils.java:63)
-	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceToolbarHandler.updateToolbar(DataSourceToolbarHandler.java:174)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
-	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
-	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
-	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:560)
-	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:367)
-	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:388)
-	at org.jkiss.dbeaver.ui.app.standalone.ApplicationWorkbenchAdvisor.postShutdown(ApplicationWorkbenchAdvisor.java:276)
-	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2931)
-	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1123)
-	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1391)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
-	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1391)
-	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1367)
-	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
-	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
-	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
-	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1753)
-	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:504)
-	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
-	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
-	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
-	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4747)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4846)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
-	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4846)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
-	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
-	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5028)
-	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3643)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-2023-04-02 23:20:40.689 - DBeaver is stopping
-2023-04-02 23:20:40.690 - Stop RMI server
-2023-04-02 23:20:40.691 - RMI controller has been stopped
-2023-04-02 23:20:40.691 - DBeaver shutdown completed
+2023-04-10 20:08:35.166 - Execution context closed (localhost, 2)
+2023-04-10 20:08:35.452 - DBeaver is stopping
+2023-04-10 20:08:35.453 - Stop RMI server
+2023-04-10 20:08:35.454 - RMI controller has been stopped
+2023-04-10 20:08:35.454 - DBeaver shutdown completed

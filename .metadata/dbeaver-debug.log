@@ -1,24 +1,24 @@
-2023-04-10 19:55:43.690 - DBeaver 23.0.2.202304091457 is starting
-2023-04-10 19:55:43.692 - OS: Windows 10 10.0 (amd64)
-2023-04-10 19:55:43.692 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
-2023-04-10 19:55:43.692 - Install path: 'C:\Users\Filip\AppData\Local\DBeaver'
-2023-04-10 19:55:43.692 - Instance path: 'file:/C:/Users/Filip/Documents/Edunova-2022/'
-2023-04-10 19:55:43.693 - Memory available 128Mb/1024Mb
-2023-04-10 19:55:43.703 - Create display
-2023-04-10 19:55:43.881 - Initializing DBeaver 23.0.2
-2023-04-10 19:55:43.882 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 23.0.2.202304091457
-2023-04-10 19:55:43.882 - Initialize desktop platform...
-2023-04-10 19:55:44.015 - BounceCastle bundle found. Use JCE provider BC
+2023-04-10 20:40:52.445 - DBeaver 23.0.2.202304091457 is starting
+2023-04-10 20:40:52.445 - OS: Windows 10 10.0 (amd64)
+2023-04-10 20:40:52.445 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2023-04-10 20:40:52.445 - Install path: 'C:\Users\Filip\AppData\Local\DBeaver'
+2023-04-10 20:40:52.445 - Instance path: 'file:/C:/Users/Filip/Documents/Edunova-2022/'
+2023-04-10 20:40:52.445 - Memory available 64Mb/1024Mb
+2023-04-10 20:40:52.461 - Create display
+2023-04-10 20:40:52.570 - Initializing DBeaver 23.0.2
+2023-04-10 20:40:52.570 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 23.0.2.202304091457
+2023-04-10 20:40:52.570 - Initialize desktop platform...
+2023-04-10 20:40:52.695 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.9.500.v20220817-1539]
 > Start Core Resource Management [org.eclipse.core.resources 3.18.100.v20221025-2047]
 > Start Team Support Core [org.eclipse.team.core 3.9.600.v20220902-2219]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.103.202304091457]
-2023-04-10 19:55:44.250 - Initialize base platform...
+2023-04-10 20:40:52.912 - Initialize base platform...
 > Start Expression Language [org.eclipse.core.expressions 3.8.200.v20220613-1047]
-2023-04-10 19:55:44.273 - Platform initialized (391ms)
+2023-04-10 20:40:52.937 - Platform initialized (367ms)
 > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.103.202304091457]
-2023-04-10 19:55:44.285 - Starting RMI server at 24901
-2023-04-10 19:55:44.364 - Run workbench
+2023-04-10 20:40:52.950 - Starting RMI server at 28679
+2023-04-10 20:40:53.032 - Run workbench
 > Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.118.202304091457]
 > Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.16.700.v20221024-2137]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.400.v20220915-1347]
@@ -31,15 +31,14 @@
 > Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.13.200.v20221024-2137]
 > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.17.200.v20220613-1008]
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.14.700.v20221102-0748]
-> Start Eclipse SDK Themes [org.eclipse.ui.themes 1.2.2100.v20221024-2137]
-2023-04-10 19:55:45.779 - Configure workbench window
+2023-04-10 20:40:54.505 - Configure workbench window
 > Start Help System Core [org.eclipse.help 3.9.100.v20210721-0601]
-2023-04-10 19:55:45.854 - Create actions
-2023-04-10 19:55:45.860 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2023-04-10 19:55:45.861 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2023-04-10 19:55:45.861 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2023-04-10 19:55:46.443 - Initialize workbench window
-2023-04-10 19:55:46.449 - Finish initialization
+2023-04-10 20:40:54.586 - Create actions
+2023-04-10 20:40:54.591 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2023-04-10 20:40:54.592 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2023-04-10 20:40:54.592 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2023-04-10 20:40:55.020 - Initialize workbench window
+2023-04-10 20:40:55.026 - Finish initialization
 > Start Default Text Editor [org.eclipse.ui.editors 3.14.400.v20220730-1844]
 > Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.16.600.v20220809-1658]
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.103.202304091457]
@@ -55,21 +54,25 @@
 > Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20230406122456]
 > Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.63.202304091457]
 > Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.63.202304091457]
-2023-04-10 19:55:48.310 - Total database drivers: 102 (102)
-2023-04-10 19:55:48.523 - Connect with 'localhost' (mariaDB-184a5e31dc5-43427f82758bb6ab)
+2023-04-10 20:40:56.248 - Total database drivers: 102 (102)
+2023-04-10 20:40:56.381 - Connect with 'localhost' (mariaDB-184a5e31dc5-43427f82758bb6ab)
 > Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.188.202304091457]
-2023-04-10 19:55:48.566 - Execution context opened (localhost; Main; 0)
+2023-04-10 20:40:56.418 - Execution context opened (localhost; Main; 0)
 > Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.127.202304091457]
-2023-04-10 19:55:48.681 - Execution context opened (localhost; Metadata; 1)
-2023-04-10 19:55:48.771 - Connected (mariaDB-184a5e31dc5-43427f82758bb6ab, MariaDB Connector/J [3.0.7])
+2023-04-10 20:40:56.516 - Execution context opened (localhost; Metadata; 1)
+2023-04-10 20:40:56.575 - Connected (mariaDB-184a5e31dc5-43427f82758bb6ab, MariaDB Connector/J [3.0.7])
 > Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
 > Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.95.202304091457]
 > Start Core Compare Support [org.eclipse.compare.core 3.7.100.v20220812-1406]
 > Start Console [org.eclipse.ui.console 3.11.400.v20221012-0524]
 > Start Debug Core [org.eclipse.debug.core 3.20.0.v20220811-0741]
-2023-04-10 20:08:12.658 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 2)
-[ WARN] (DBeaver: SQL script execution) Error: 1007-HY000: Can't create database 'zavrsnirad'; database exists
-2023-04-10 20:08:20.368 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1007] [HY000]: (conn=12) Can't create database 'zavrsnirad'; database exists
+2023-04-10 20:41:06.734 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 2)
+2023-04-10 20:41:08.066 - Execution context closed (localhost, 2)
+2023-04-10 20:41:22.357 - Execution context opened (localhost; SQLEditor <Script-4.sql>; 3)
+[ WARN] (DBeaver: SQL script execution) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':orderId
+LIMIT 0, 200' at line 7
+2023-04-10 20:41:39.168 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':orderId
+LIMIT 0, 200' at line 7
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
@@ -78,33 +81,8 @@
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:238)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLException: (conn=12) Can't create database 'zavrsnirad'; database exists
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 7 more
-[ WARN] (DBeaver: SQL script execution) Error: 1050-42S01: Table 'orders' already exists
-2023-04-10 20:08:22.530 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1050] [42S01]: (conn=12) Table 'orders' already exists
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:238)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=12) Table 'orders' already exists
+Caused by: java.sql.SQLSyntaxErrorException: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':orderId
+LIMIT 0, 200' at line 7
 	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
 	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
 	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
@@ -120,8 +98,10 @@ Caused by: java.sql.SQLSyntaxErrorException: (conn=12) Table 'orders' already ex
 	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 7 more
-[ WARN] (DBeaver: SQL script execution) Error: 1050-42S01: Table 'orders_product' already exists
-2023-04-10 20:08:23.746 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1050] [42S01]: (conn=12) Table 'orders_product' already exists
+[ WARN] (DBeaver: SQL script execution) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':orderId
+LIMIT 0, 200' at line 7
+2023-04-10 20:41:41.614 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':orderId
+LIMIT 0, 200' at line 7
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
@@ -130,7 +110,8 @@ Caused by: java.sql.SQLSyntaxErrorException: (conn=12) Table 'orders' already ex
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:238)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=12) Table 'orders_product' already exists
+Caused by: java.sql.SQLSyntaxErrorException: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':orderId
+LIMIT 0, 200' at line 7
 	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
 	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
 	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
@@ -146,24 +127,111 @@ Caused by: java.sql.SQLSyntaxErrorException: (conn=12) Table 'orders_product' al
 	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
 	... 7 more
-[ WARN] (DBeaver: SQL script execution) Error: 1050-42S01: Table 'orders_status' already exists
-[ WARN] (DBeaver: SQL script execution) Error: 1062-23000: Duplicate entry '1' for key 'PRIMARY'
-[ WARN] (DBeaver: SQL script execution) Error: 1050-42S01: Table 'product' already exists
-[ WARN] (DBeaver: SQL script execution) Error: 1062-23000: Duplicate entry '6' for key 'PRIMARY'
-[ WARN] (DBeaver: SQL script execution) Error: 1050-42S01: Table 'product_type' already exists
-[ WARN] (DBeaver: SQL script execution) Error: 1062-23000: Duplicate entry '1' for key 'PRIMARY'
-[ WARN] (DBeaver: SQL script execution) Error: 1050-42S01: Table 'user' already exists
-[ WARN] (DBeaver: SQL script execution) Error: 1068-42000: Multiple primary key defined
-[ WARN] (DBeaver: SQL script execution) Error: 1068-42000: Multiple primary key defined
-[ WARN] (DBeaver: SQL script execution) Error: 1068-42000: Multiple primary key defined
-[ WARN] (DBeaver: SQL script execution) Error: 1068-42000: Multiple primary key defined
-[ WARN] (DBeaver: SQL script execution) Error: 1068-42000: Multiple primary key defined
-[ WARN] (DBeaver: SQL script execution) Error: 1068-42000: Multiple primary key defined
-[ WARN] (DBeaver: SQL script execution) Error: 1005-HY000: Can't create table `zavrsnirad`.`orders` (errno: 121 "Duplicate key on write or update")
-[ WARN] (DBeaver: SQL script execution) Error: 1005-HY000: Can't create table `zavrsnirad`.`orders_product` (errno: 121 "Duplicate key on write or update")
-[ WARN] (DBeaver: SQL script execution) Error: 1005-HY000: Can't create table `zavrsnirad`.`product` (errno: 121 "Duplicate key on write or update")
-2023-04-10 20:08:35.166 - Execution context closed (localhost, 2)
-2023-04-10 20:08:35.452 - DBeaver is stopping
-2023-04-10 20:08:35.453 - Stop RMI server
-2023-04-10 20:08:35.454 - RMI controller has been stopped
-2023-04-10 20:08:35.454 - DBeaver shutdown completed
+[ WARN] (DBeaver: SQL script execution) Error: 1054-42S22: Unknown column 'salata' in 'where clause'
+2023-04-10 20:42:32.431 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1054] [42S22]: (conn=35) Unknown column 'salata' in 'where clause'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:238)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=35) Unknown column 'salata' in 'where clause'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+[ WARN] (DBeaver: SQL script execution) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, 1234, admin)' at line 2
+2023-04-10 20:43:56.560 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, 1234, admin)' at line 2
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:238)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, 1234, admin)' at line 2
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+[ WARN] (DBeaver: SQL script execution) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1123ilfj@gmail.com121234)admin' at line 2
+2023-04-10 20:44:03.511 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1123ilfj@gmail.com121234)admin' at line 2
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:238)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1123ilfj@gmail.com121234)admin' at line 2
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+[ WARN] (DBeaver: SQL script execution) Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com121234  admin' at line 2
+2023-04-10 20:44:25.863 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com121234  admin' at line 2
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:238)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=35) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com121234  admin' at line 2
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:280)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:368)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:137)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:833)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:772)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:691)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:634)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:935)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1061)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:452)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:96)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+2023-04-10 20:44:34.081 - Execution context closed (localhost, 3)
+2023-04-10 20:44:34.311 - DBeaver is stopping
+2023-04-10 20:44:34.312 - Stop RMI server
+2023-04-10 20:44:34.313 - RMI controller has been stopped
+2023-04-10 20:44:34.314 - DBeaver shutdown completed

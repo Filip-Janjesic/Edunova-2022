@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bindings>
+	<parameter name="ORDERID" value="1"/>
+	<parameter name="NAME" value="Filip"/>
+	<parameter name="ROLE" value="admin"/>
+	<parameter name="SURNAME" value="Janješić"/>
+	<parameter name="TELEPHONE" value="0919175470"/>
+	<parameter name="PASSWORD" value="1234"/>
+	<parameter name="ADDRESS" value="adfasdf"/>
+	<parameter name="EMAIL" value="fj@gmail.com"/>
+</bindings>
